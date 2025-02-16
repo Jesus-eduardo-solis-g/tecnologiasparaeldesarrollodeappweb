@@ -1,0 +1,146 @@
+.app{
+  margin-top: 0rem;
+}
+
+.dropdown-item{
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.navbar-nav {
+  width: 40%;
+  justify-content: space-between;
+  margin-left: 5rem;
+}
+
+.nav-position {
+  width: 100%; /* El div ocupa el 100% del ancho de la pantalla */
+  /*float: center; */
+  display: flex; /* Usa flexbox para centrar el contenido */
+  justify-content: center; /* Centra el contenido horizontalmente */
+}
+
+.dropdown-menu {
+  border: none;
+}
+
+/** Header y Nav Main **/
+
+.nav-main-header{
+  border-bottom: 3px solid;
+  border-image-source: linear-gradient(to right, #637681, #037bc0);
+  border-image-slice: 1;
+  padding: 2rem 10rem; /*Top Rigth Bottom Left */ /*TB LR*/
+  background-color: white;
+  font-size: 1.7rem;
+}
+
+.img-logo{
+  width: 100%; /* La imagen ocupará el 100% del ancho de su contenedor */
+  max-width: 12rem; /* La imagen no superará los 12 rems de ancho */
+  height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+  min-width: 6rem; /* Tamaño mínimo para la imagen */
+}
+
+.logos {
+  display: grid;
+  grid-template-columns: auto auto 1fr auto; /* Dos columnas automáticas a la izquierda, seguidas de dos columnas que ocupan el espacio restante */
+  align-items: center; /* Centra el contenido verticalmente */
+}
+
+/* Ajusta la alineación de los elementos si es necesario */
+.logos > *:nth-child(-n+2) {
+  justify-self: start; /* Alinea los primeros dos elementos a la izquierda */
+}
+
+.logos > *:nth-child(n+3) {
+  justify-self: end; /* Alinea los últimos dos elementos a la derecha */
+}
+
+
+.right-column {
+  grid-column-start: 4; /* Inicia en la tercera columna */
+  grid-column-end: -1; /* Termina en la última columna de la cuadrícula */
+}
+
+.redes-text{
+  margin: 0 1rem;
+  font-size: 2rem;
+}
+
+.redes-text span{
+  color: #037bc0;
+}
+
+.escom-text{
+  margin: 0 3rem;
+  font-size: 2rem;
+}
+
+.escom-text span{
+  color: #037bc0;
+}
+
+.header-main a{
+  align-items: center;
+  display: flex;
+}
+
+.navs-header{
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap; */
+  padding-top: 0rem;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.navs-header a{
+  margin: 0 auto;
+  font-weight: 700;
+}
+
+.navbar-toggler{
+  margin: 0 auto;
+  padding: 0.5rem 4rem;
+}
+
+/* app.component.css */
+.sticky-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff; /* Change to your desired background color */
+  z-index: 1000; /* Adjust z-index as needed */
+  transition: top 0.3s; /* Add smooth transition when header becomes sticky */
+}
+
+.sticky {
+  top: -21rem; /* Adjust to the height of your header */
+}
+
+.div-space {
+  margin-top: 5%;
+}
+
+.horizontal-images {
+  display: flex;
+}
+
+@media only screen and (max-width: 800px) {
+  .navs-header{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-main-header{
+    padding: 2rem 5rem; /*Top Rigth Bottom Left */ /*TB LR*/
+  }
+  .logos{
+    margin-right: 0rem;
+  }
+}
+
+

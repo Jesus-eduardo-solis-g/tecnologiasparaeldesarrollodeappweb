@@ -1,0 +1,73 @@
+<section class="container-fluid unidades-container">
+  <article class="row">
+    <div class="col-12 col-md-6 p-4 bg-primary text-white">
+      <h2>{{ 'units-info.prefix' | translate }} {{id}}. {{unidad.titulo}}</h2>
+      <h3 style="margin: 0;">{{ 'units-info.pre-titulo' | translate }}</h3>
+      <p>
+        {{unidad.competencia}}
+      </p>
+    </div>
+    <div class="img-cover col-12 col-md-6 p-0" [style]="'background-image: url('+unidad.imagen+');'">
+      <p class="image-source">Fuente: {{unidad.img_src}}</p>
+    </div>
+  </article>
+  <article class="row justify-content-center">
+    <div class="col-12 col-md-3 col-xl-2 px-0 px-md-3">
+      <div class="btn-group-vertical btn-group-lg btn-group-toggle my-md-4 w-100" data-toggle="buttons">
+        <label
+          [classList]="uniSection === 'contenidos' ? 'btn btn-outline-primary label-no-margin active':'btn btn-outline-primary label-no-margin'"><input
+            type="radio" class="btn-check" name="uniSection" id="contenidos" autocomplete="off" [value]="'contenidos'"
+            [(ngModel)]="uniSection" />{{ 'units-info.content-table.item-1' | translate }}</label>
+        <label
+          [classList]="uniSection === 'evaluacion' ? 'btn btn-outline-primary label-no-margin active':'btn btn-outline-primary label-no-margin'"><input
+            type="radio" class="btn-check" name="uniSection" id="evaluacion" autocomplete="off" [value]="'evaluacion'"
+            [(ngModel)]="uniSection" />{{ 'units-info.content-table.item-2' | translate }}</label>
+        <label
+          [classList]="uniSection === 'actividades' ? 'btn btn-outline-primary label-no-margin active':'btn btn-outline-primary label-no-margin'"><input
+            type="radio" class="btn-check" name="uniSection" id="actividades" autocomplete="off" [value]="'actividades'"
+            [(ngModel)]="uniSection" />{{ 'units-info.content-table.item-3' | translate }}</label>
+        <label
+          [classList]="uniSection === 'autoevaluacion' ? 'btn btn-outline-primary label-no-margin active':'btn btn-outline-primary label-no-margin'"><input
+            type="radio" class="btn-check" name="uniSection" id="autoevaluacion" autocomplete="off"
+            [value]="'autoevaluacion'" [(ngModel)]="uniSection" />{{ 'units-info.content-table.item-4' | translate }}</label>
+        <label
+          [classList]="uniSection === 'coevaluacion' ? 'btn btn-outline-primary label-no-margin active':'btn btn-outline-primary label-no-margin'"><input
+            type="radio" class="btn-check" name="uniSection" id="coevaluacion" autocomplete="off"
+            [value]="'coevaluacion'" [(ngModel)]="uniSection" />{{ 'units-info.content-table.item-5' | translate }}</label>
+        <label
+          [classList]="uniSection === 'presentacion' ? 'btn btn-outline-primary label-no-margin active':'btn btn-outline-primary label-no-margin'"><input
+            type="radio" class="btn-check" name="uniSection" id="presentacion" autocomplete="off"
+            [value]="'presentacion'" [(ngModel)]="uniSection" />{{ 'units-info.content-table.item-6' | translate }}</label>
+        <label
+          [classList]="uniSection === 'recursos' ? 'btn btn-outline-primary label-no-margin active':'btn btn-outline-primary label-no-margin'"><input
+            type="radio" class="btn-check" name="uniSection" id="recursos" autocomplete="off" [value]="'recursos'"
+            [(ngModel)]="uniSection" />{{ 'units-info.content-table.item-7' | translate }}</label>
+      </div>
+    </div>
+    <div class="col-12 col-md-9 col-xl-10">
+      <app-unidad style="width: 100%;" *ngIf="unidad" [unidad]="unidad" [tipo]="uniSection == 'recursos' ? 1 : 0"
+        [selection]="uniSection"></app-unidad>
+    </div>
+  </article>
+</section>
+
+<div class="modal fade" id="cuadroEval">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h2 class="modal-title">Cuadro de Evaluación</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span>&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container" *ngIf="flagCuadro">
+          <img [src]='unidad.cuadroEval' alt="">
+        </div>
+        <div class="container" *ngIf="!flagCuadro">
+          <h3 class='text-center'>Sin cuadro de evaluación disponible</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,175 @@
+{
+    "app": {
+      "firstTitle": "Tecnologías para el desarrollo",
+      "secondTitle": "de aplicaciones Web",
+      "home": "Inicio",
+      "units": "Unidades",
+      "moreInfo": "Más información",
+      "lang": "Idioma",
+      "sources": "Fuentes de consulta",
+      "glossary": "Glosario",
+      "userManual": "Manual de usuario",
+      "en": "Inglés",
+      "es": "Español"
+    },
+    "home": {
+      "welcome": {
+        "title": "Bienvenida",
+        "embed": "https://www.youtube-nocookie.com/embed/HfG2zySCAw8?si=QCmEZVUb0DRsaqGG&controls=1&autoplay=1",
+        "lemma": ""
+      },
+      "about-course": {
+        "title": "Sobre el curso",
+        "content": {
+          "header": "Recibe la más cordial bienvenida a este recurso didáctico digital (RDD) de la Unidad de Aprendizaje (UA) de Tecnologías para el desarrollo de aplicaciones Web que se imparte en la Escuela Superior de Cómputo del Instituto Politécnico Nacional. Este RDD fue construido con el propósito de promover el aprendizaje autónomo, así como de facilitar, enriquecer y fortalecer los procesos de enseñanza-aprendizaje de la UA en cuestión en la modalidad escolarizada.",
+          "main-text": "La unidad de aprendizaje contribuye al perfil de egreso del ingeniero en Sistemas Computacionales con el desarrollo de habilidades para la creación de aplicaciones Web, constituidas por los siguientes elementos como: páginas Web estáticas y dinámicas, metadatos basados en XML, programación del lado del cliente (Front-End) basada en JavaScript, y del lado del servidor (Back-End) basada en el lenguaje de programación Java, marcos de trabajo (frameworks) de desarrollo de aplicaciones Web y conexión a bases de datos, aplicando buenas prácticas de programación. Se fomenta el trabajo en equipo colaborativo, liderazgo, ética y toma de decisiones. Esta unidad de aprendizaje se relaciona de manera antecedente con Bases de datos y Paradigmas de programación, y consecuentemente con Software Quality Assurance and Design Patterns y Web client and Backend Development Frameworks."
+        }
+      },
+      "methodology": {
+        "title": "Metodología",
+        "content": {
+          "header": "El alumnado desarrollará las siguientes actividades:",
+          "list": {
+            "i1": "Indagación documental",
+            "i2": "Discusión dirigida",
+            "i3": "Organizadores gráficos",
+            "i4": "Prácticas técnicas",
+            "i5": "Proyectos integrados",
+            "i6": "Prácticas específicas por unidad temática",
+            "i7": "Trabajo colaborativo",
+            "i8": "Evaluación continua"
+          }
+        }
+      },
+      "competence": {
+        "title": "Unidad de competencia: Tecnologías para el desarrollo de aplicaciones Web",
+        "content": {
+          "header": "Desarrolla aplicaciones Web con base en las tecnologías HTML, XML, Java, JavaScript, AJAX, un framework JavaScript y la conexión a bases de datos."
+        }
+      },
+      "eval": { 
+        "title": "Evaluación",
+        "content": {
+          "header": "La evaluación consistirá en las siguientes actividades:",
+          "list": {
+            "i1": "Evaluación diagnóstica para identificar conocimientos previos en desarrollo web.",
+            "i2": "Portafolio de evidencias con reportes de indagación sobre tecnologías web.",
+            "i3": "Programas de aplicaciones web documentados y funcionales.",
+            "i4": "Organizadores gráficos sobre arquitectura y flujos de datos.",
+            "i5": "Diseño y configuración de aplicaciones web dinámicas.",
+            "i6": "Proyecto modular desarrollado en seis fases desde HTML inicial hasta la implementación con frameworks y diseño responsivo.",
+            "i7": "Reportes de prácticas realizadas en tecnologías web.",
+            "i8": "Evaluación escrita con exámenes teóricos y prácticos."
+          }
+        }
+      },
+      "strat": { 
+        "title": "Estrategias de aprendizaje",
+        "content": {
+          "header": "El alumnado desarrollará las siguientes actividades:",
+          "list": {
+            "i1": "Indagación documental sobre la evolución de Internet, estándares web y tecnologías de desarrollo como HTML, CSS, JavaScript, AJAX y Servlets.",
+            "i2": "Discusión dirigida sobre conceptos clave del desarrollo web, como arquitectura Cliente/Servidor y protocolos web.",
+            "i3": "Organizadores gráficos que representen arquitecturas, flujos de datos y diseño de aplicaciones web.",
+            "i4": "Uso de herramientas de desarrollo web para crear y depurar aplicaciones estáticas y dinámicas.",
+            "i5": "Uso de frameworks de JavaScript y entornos de desarrollo para implementar aplicaciones dinámicas.",
+            "i6": "Desarrollo de un proyecto modular integrado por fases a lo largo de las unidades temáticas, desde páginas estáticas hasta aplicaciones responsivas avanzadas.",
+            "i7": "Realización de prácticas técnicas que fortalezcan los conocimientos adquiridos en cada unidad temática."
+          }
+        }
+      },
+      "prog": { 
+        "title": "Programa de estudios", 
+        "content": {
+          "header": "Escanea el código QR para descargar el Programa de Estudios."
+        }
+      },
+      "contacts": { 
+        "title": "Contactos",
+        "content": {
+          "text-1": "Desarrollo profesional:",
+          "text-2": "Áreas de interés:"
+        },
+        "footer": "Más acerca del docente"
+      },
+      "req": { 
+        "title": "Requerimientos", 
+        "content": {
+          "list-1": {
+            "title": "Dispositivo móvil:",
+            "i1": "Android 4.4 o superior",
+            "i2": "iOS 9.0 o superior",
+            "i3": "Conexión a internet"
+          },
+          "list-2": {
+            "title": "Equipo de cómputo:",
+            "i1" : "Procesador: 500 MHz o superior",
+            "i2": "Memoria: 256 MB o superior",
+            "i3": "Almacenamiento: 500 MB o superior",
+            "i4": "Conexión a internet"
+          },
+          "list-3": {
+            "title": "Navegadores soportados:",
+            "i1" : "Internet Explorer 10 o superior",
+            "i2": "Microsoft Edge",
+            "i3": "Mozilla Firefox 38 o superior",
+            "i4": "Google Chrome 45 o superior",
+            "i5": "Opera 30 o superior",
+            "i6": "Safari 9 o superior (IOS o MAC)",
+            "i7": "WebView (Android)"
+          }
+        }
+      }
+    },
+    "footer": {
+      "units": "Unidades",
+      "resources": "Recursos",
+      "autoev": "Autoevaluación"
+    },
+    "unit": {
+      "1": "Aspectos básicos del desarrollo de aplicaciones Web",
+      "2": "Páginas Web con HTML",
+      "3": "Java Servlets",
+      "4": "Lenguaje de Marcado eXtensible (XML)",
+      "5": "Hojas de estilo en cascada (CSS)",
+      "6": "JavaScript y AJAX"
+    },
+    "units-info": {
+      "prefix": "Unidad",
+      "pre-titulo": "Unidad de competencia",
+      "content-table": {
+        "item-1": "Contenido",
+        "item-2": "Evaluación por unidad",
+        "item-3": "Actividades de aprendizaje",
+        "item-4": "Autoevaluación",
+        "item-5": "Coevaluación",
+        "item-6": "Presentación",
+        "item-7": "Recursos Adicionales"
+      },
+      "text-1": "De click en el título de cada sección para visualizar el contenido.",
+      "text-2": "De click en el título de la actividad para visualizar el contenido.",
+      "text-3": "De click en el título de la presentación para visualizar su contenido.",
+      "text-4": "Aquí encontrarás materiales auxiliares a la unidad"
+    },
+    "sources": {
+      "title": "Bibliografía",
+      "image": "assets/img/bibliografia.png"
+    },
+    "glossary": {
+      "title": "Glosario Redes de Computadoras",
+      "word": "Palabra",
+      "concept": "Concepto"
+    },
+    "datatable": {
+      "search": "Buscar",
+      "paginate": {
+        "first": "Primero",
+        "last": "Último",
+        "previous": "Anterior",
+        "next": "Siguiente"
+      },
+      "info": "Mostrando _START_ a _END_ de _TOTAL_ registros",
+      "lengthMenu": "Mostrar _MENU_ entradas"
+    } 
+  }
+  

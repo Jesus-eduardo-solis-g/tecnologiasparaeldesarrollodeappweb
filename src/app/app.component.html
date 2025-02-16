@@ -1,0 +1,161 @@
+<header class="nav-main-header sticky-header" [ngClass]="{'sticky': isSticky}">
+  <div class="logos" [routerLink]="['/']" (click)="collapse()">
+    <img class="img-logo" src="assets/img/ipn.png" alt="escom">
+    <h2 class="redes-text">{{ 'app.firstTitle' | translate }} <p><span>{{ 'app.secondTitle' | translate }}</span></p></h2>
+    <h2 class="escom-text">Escuela Superior de <p><span>Cómputo</span></p></h2>
+    <img class="img-logo right right-column" src="assets/img/escom.png" alt="escom">
+  </div>
+  <div class="nav-position">
+    <nav class="navbar navbar-expand-lg navbar-light navs-header">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item" (click)="collapse()" *ngIf="currentLink != '/'">
+            <a class="nav-link font-weight-bold h3" [routerLink]="['/']">{{ 'app.home' | translate }}</a>
+          </li>
+
+          <li class="nav-item dropdown" *ngIf="currentLink == '/'">
+            <a class="nav-link dropdown-toggle font-weight-bold h3" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ 'app.home' | translate }}</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
+              <a class="dropdown-item font-weight-bold h5" *ngFor="let item of navs"
+                (click)="goToId(item.link)">{{ item.title }}</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle font-weight-bold h3" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ 'app.units' | translate }}</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
+              <a class="dropdown-item font-weight-bold h5 text-truncate" style="max-width: 90vw;"
+                *ngFor="let item of unidades" [routerLink]="['unidades',item.indice]">{{item.indice}}.- {{ item.titulo | translate }}</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle font-weight-bold h3" href="#" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              &nbsp; {{ 'app.moreInfo' | translate }}
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
+              <a class="dropdown-item font-weight-bold h5" data-toggle="modal" [attr.data-target]="'#biblio'"><i
+                  class="bi bi-card-text"></i>&nbsp; {{ 'app.sources' | translate }}</a>
+              <a class="dropdown-item font-weight-bold h5" data-toggle="modal" [attr.data-target]="'#glosario'"><i
+                  class="bi bi-journal-text"></i>&nbsp; {{ 'app.glossary' | translate }}</a>
+              <a class="dropdown-item font-weight-bold h5" data-toggle="modal" [attr.data-target]="'#usermanual'"><i
+                  class="bi bi-question-circle"></i>&nbsp; {{ 'app.userManual' | translate }}</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle font-weight-bold h3" href="#" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false"><i class="bi bi-globe"></i>&nbsp;{{ 'app.lang' | translate }}
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
+              <button role="a" value="es" class="dropdown-item font-weight-bolder h5 text-dark" (click)="changeLanguage('es')">{{ 'app.es' | translate }}</button>
+              <button role="a" value="eng" class="dropdown-item font-weight-bold h5" (click)="changeLanguage('en')">{{ 'app.en' | translate }}</button>
+            </div>            
+          </li>          
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+<div class="modal fade" id="biblio">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h2 class="modal-title">{{ 'sources.title' | translate }}</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span>&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <img src="{{ 'sources.image' | translate }}" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="program">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h2 class="modal-title">Programa de la Unidad de Aprendizaje</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span>&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class='embed-responsive embed-responsive-16by9' style='height: 75rem;'><object data='assets/data/programa2020.pdf' type='application/pdf'></object></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="app">
+  <router-outlet></router-outlet>
+</div>
+
+<section class="modal fade" id="usermanual">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h2 class="modal-title w-100">Manual de Usuario</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span>&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class='embed-responsive' style="min-height: 70vh; max-height: 80vh;">
+            <iframe title="Manual de usuario" class="embed-responsive-item" loading='lazy'
+              src='assets/data/RDD_RC_usr_man.pdf'></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<app-glosario></app-glosario>
+
+<footer class="site-footer">
+  <div class="grid-footer container">
+    <div>
+      <h3>{{ 'footer.units' | translate }}</h3>
+      <nav class="nav-foot">
+        <a *ngFor="let item of unidades" [routerLink]="['unidades',item.indice]">{{item.indice}}.- {{item.titulo | translate}}</a>
+      </nav>
+    </div>
+    <div>
+        <h3>{{ 'footer.resources' | translate }}</h3>
+        <nav class="nav-foot">
+          <a *ngFor="let item of unidades" [routerLink]="['recursos',item.indice]">{{item.indice}}.- {{item.titulo | translate}}</a>
+        </nav>
+    </div>
+    <div>
+      <h3>{{ 'footer.autoev' | translate }}</h3>
+      <nav class="nav-foot">
+        <a *ngFor="let item of unidades" [routerLink]="['evaluaciones',item.indice]">{{item.indice}}.- {{item.titulo | translate}}</a>
+      </nav>
+    </div>
+  </div>
+  <div class="div-space" style="display: inline-block;" style="text-align: center;">
+    <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+      <a property="dct:title" rel="cc:attributionURL" href="/">Plataforma Didáctica Digital: Tecnologías para el Desarrollo de Aplicaciones Web</a> por 
+      <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="/">Dr. José Asunción Enriquez Zarate</a> is licensed under 
+      <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a><br>
+        <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">
+          <div class="horizontal-images">
+            <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">
+            <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">
+            <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt="">
+            <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt="">
+          </div>
+      </a>      
+    </p>
+  </div>
+  <p class="copyright">Instituto Politécnico Nacional. Escuela Superior de Cómputo</p>
+</footer>

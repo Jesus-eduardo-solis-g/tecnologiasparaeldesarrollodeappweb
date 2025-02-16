@@ -1,0 +1,740 @@
+[
+    {
+      "indice": 1,
+      "titulo": "Basic aspects of Web application development",
+      "imagen": "https://i.go-travels.com/img/how-to/networking-fundamentals.jpg",
+      "competencia": "Identifies the main elements in the development of Web applications as well as best practices based on Web architecture and standards.",
+      "keywords": [
+        "Networks",
+        "Classification",
+        "Standards",
+        "OSI",
+        "TCP/IP"
+      ],
+      "evaluacion": "<h3 class='text-center mt-4'>Section without information</h3>",
+      "autoevaluacion": "<h3 class='text-center mt-4'>Section without information</h3>",
+      "coevaluacion": "<h3 class='text-center mt-4'>Section without information</h3>",
+      "cuadroEval": "assets/img/bibliografia.png",
+      "activities": [
+        {
+          "section": 1.1,
+          "title": "Historical evolution of Internet and WWW",
+          "embed": "<iframe loading='lazy' src='https://www.dspace.espol.edu.ec/bitstream/123456789/27398/1/20132SPRTCO011561_1.PDF' class='embed-responsive-item' frameborder='0'></iframe>"
+        },
+        {
+          "section": 1.2,
+          "title": "The Internet and the WWW",
+          "embed": "<iframe loading='lazy' src='' class='embed-responsive-item' frameborder='0'></iframe>"
+        },
+        {
+          "section": 1.3,
+          "title": "Web Standards",
+          "embed": "<iframe loading='lazy' src='' class='embed-responsive-item' frameborder='0'></iframe>"
+        },
+        {
+          "section": 1.4,
+          "title": "Development environments for Web Applications",
+          "embed": "<iframe loading='lazy' src='' class='embed-responsive-item' frameborder='0'></iframe>"
+        }      
+      ],
+      "contenido": [
+        {
+          "seccion": 1.1,
+          "titulo": "Historical evolution of Internet and WWW",
+          "descripcionRecurso": "",
+          "keywords": [
+            "Networks", 
+            "Fundamentals"
+          ],
+          "unidad": "<h3 class='text-center'>Section without information</h3>"
+        },
+        {
+          "seccion": 1.2,
+          "titulo": "The Internet and the WWW",
+          "descripcionRecurso": "",
+          "keywords": [
+            "Classification",
+            "Geographic",
+            "Trends"
+          ],
+          "unidad": "<h3 class='text-center'>Section without information</h3>"
+        },
+        {
+          "seccion": 1.3,
+          "titulo": "Web Standards",
+          "descripcionRecurso": "",
+          "keywords": [
+            "Standards",
+            "IEEE"
+          ],
+          "unidad": "Test"
+        },
+        {
+          "seccion": 1.4,
+          "titulo": "Development environments for Web Applications",
+          "descripcionRecurso": "",
+          "keywords": [
+            "OSI",
+            "TCP/IP"
+          ],
+          "unidad": "<h3 class='text-center'>Section without information</h3>"
+        }
+      ],
+      "recurso": [
+        {
+          "seccion": 1.0,
+          "titulo": "Section without information",
+          "descripcionRecurso": "Add description",
+          "category": "video",
+          "recurso": "<h3 class='text-center'>Section without information</h3>"
+        }
+      ]
+    },
+    {
+      "indice": 2,
+      "titulo": "Web Pages with HTML",
+      "imagen": "https://x.utel.edu.mx/repositorios/uploads/2020/03/L1Is113.jpg",
+      "competencia": "Designs static and dynamic web content based on the HTML markup language.",
+      "keywords": [
+        "Protocols",
+        "Encapsulation",
+        "Transmission",
+        "Multiplexing",
+        "Error control",
+        "Segmentation"
+      ],
+      "evaluacion": "<h3 class='text-center'>Section without information</h3>",
+      "autoevaluacion": "<h3 class='text-center'>Section without information</h3>",
+      "coevaluacion": "<h3 class='text-center'>Section without information</h3>",
+      "cuadroEval": "assets/img/bibliografia.png",
+      "activities": [
+        {
+          "section": 2.1,
+          "title": "Section without information",
+          "embed": "<iframe loading='lazy' src='' class='embed-responsive-item' frameborder='0'></iframe>"
+        }
+      ],
+      "contenido": [
+        {
+          "seccion": 2.1,
+          "titulo": "Evolution of HTML language",
+          "descripcionRecurso": "",
+          "keywords": [
+            "Redes",
+            "Fundamentos"
+          ],
+          "unidad": "<p>We need to add info to this section </p> <ul>        <li><b>Directive capacity:</b> Related to leadership and management skills of top management. Poor leadership impacts the entire company.</li>        <li><b>Difference in production or service roles:</b> Important for organizational structure and customer service.</li>        <li><b>Quality/price ratio:</b> Understanding costs, profits, and risks in production and distribution.</li>        <li><b>Technological resources:</b> Proper selection of tech resources according to scope.</li>        <li><b>Innovative capacity:</b> Crucial for organizational development and growth.</li>        <li><b>Commercial resources:</b> Determines economic capital and profitability.</li>        <li><b>Human capital capabilities:</b> Key for service quality and customer interactions.</li>        <li><b>Financial resources:</b> Essential for infrastructure and investments.</li>        </ul>  <div style='display: flex; justify-content:center; padding-top: 1rem; padding-bottom: 3rem;'> <h4> Mental map of competitiveness factors.</h4></div> <div style='display: flex; justify-content:center;'><img class='img-unidades' style='width: 75rem;' src='assets/img/2_1_Factores_de_competitividad.png'></div> <div style='display: flex; justify-content:center; padding-top: 1rem; padding-bottom: 3rem;'> <a style='color: blue;' target='_blank' href='https://serviciosocialaxel.github.io/GestionEmpresarial/assets/img/2_1_Factores_de_competitividad.png'>Open image in new tab</a> </div> <p> Camilo, C. (2022). Business competitiveness: what it is, importance, types and examples. <a style='color: blue;' target='_blank' href='https://blog.hubspot.es/sales/competitividad-empresarial'>https://blog.hubspot.es/sales/competitividad-empresarial</a></p>"
+        },
+        {
+          "seccion": 2.2,
+          "titulo": "Structure of an HTML document",
+          "descripcionRecurso": "",
+          "keywords": [
+            "Media",
+            "Transmission"
+          ],
+          "unidad": "",
+          "recurso": ""
+        },
+        {
+          "seccion": 2.3,
+          "titulo": "HTML Elements",
+          "descripcionRecurso": "",
+          "keywords": [
+            "Code"
+          ],
+          "unidad": "",
+          "recurso": ""
+        }
+      ],
+      "recurso": [
+        {
+          "seccion": 2.0,
+          "titulo": "Section without information",
+          "descripcionRecurso": "Add description",
+          "category": "video",
+          "recurso": "<h3 class='text-center'>Section without information</h3>"
+        }
+      ]
+    },
+    {
+      "indice": 3,
+      "titulo": "Java Servlets",
+      "imagen": "assets/img/network.png",
+      "img_src": "https://gencraft.com/prompt/adbfd10d-253e-49b9-9810-cedca7d08694?creation_id=b49e4e4a-ce9d-4e03-9b46-8373b02142fb",
+      "competencia": "Design web applications based on Servlets.",
+      "keywords": [
+        "Physical Layer", 
+        "NIC", 
+        "Routines", 
+        "IEEE 802.3", 
+        "Access"
+      ],
+      "evaluacion": "<iframe loading='lazy' src='assets/data/Evaluacion_3.pdf' style='width: 100%; height: 70rem;'></iframe>",
+      "autoevaluacion": "<iframe loading='lazy' frameborder='0'  style='width: 100%; height: 50rem;' src='https://view.genially.com/669b03bf9c64fa04771f7f06' type='text/html' allowscriptaccess='always' allowfullscreen='true' scrolling='yes' allownetworking='all'></iframe>",
+      "coevaluacion": "<iframe loading='lazy' frameborder='0'  style='width: 100%; height: 50rem;' src='https://docs.google.com/forms/d/e/1FAIpQLSeDTd7XWEMBqPqMVbhpcgZTYVl0EeY2G5jh0X3u7bh3SQLntQ/viewform' type='text/html' allowscriptaccess='always' allowfullscreen='true' scrolling='yes' allownetworking='all'></iframe>",
+      "cuadroEval": "assets/img/bibliografia.png",
+      "activities": [
+        {
+          "section": 3.1,
+          "title": "Introduction to Servlets",
+          "embed": "<iframe loading='lazy' src='https://view.genially.com/669e5beba3a0c502943dacbc' class='embed-responsive-item' frameborder='0'></iframe>"
+        },
+        {
+          "section": 3.2,
+          "title": "Lifecycle and the Servlet API",
+          "embed": "<iframe loading='lazy' src='assets/data/Practica_11.pdf' class='embed-responsive-item' frameborder='0'></iframe>"
+        },
+        {
+          "section": 3.3,
+          "title": "HttpServlets",
+          "embed": "<iframe loading='lazy' src='assets/data/Practica_12.pdf' class='embed-responsive-item' frameborder='0'></iframe>"
+        }
+      ],
+      "contenido": [
+        {
+          "seccion": 3.1,
+          "titulo": "Introduction to Servlets",
+          "descripcionRecurso": "",
+          "keywords": [
+            "Bandwidth",
+            "Noise"
+          ],
+          "unidad": "<section id='contenido-31'> <section id='contenido-31__311'> <p></p> <h4>3.1.1 Bandwidth</h4> <strong>Analog bandwidth</strong>: It consists of the frequency range around the fundamental frequency and where the greatest amount of signal energy is concentrated. It is measured in hertz (Hz). In this range of positive frequencies the system response is relatively flat, so the signals can be transmitted without distortion. <p /> <figure style='text-align: center'> <img src='assets/img/3_1_Contenido.png' alt='' style='width: 75rem; margin: 2rem auto' /> <figcaption> Stallings W. (2004). Data transmission. In communication and computer networks. (pp. 95). USA: Pearson Education </figcaption> </figure> <br /> <p> <strong>Digital bandwidth</strong>: Typically associated with Channel Capacity (C), It is defined as the maximum amount of information (bits) that can be sent per unit of time over a communication channel. It is measured in bits per second (bps). </p> </section> <br /> <section id='contenido-31__312'> <h4>3.1.2 Noise and signal-to-noise ratio</h4> <p> <strong>Noise</strong>: These are unwanted signals that are added to the data signal during transmission through the communication medium. According to (Stallings, 2004), noise can be classified as: </p> <ul> <li> <p> <strong>Thermal noise</strong> (white noise): This is present in all electronic devices and transmission media, it cannot be eliminated and it represents an upper limit on the performance of communication devices. It is due to the thermal agitation produced by the electrons. </p> <br /> <p style='text-align: center'> <img style='margin: 0 auto' src='assets/img/contenido-31-312-eq1.png' alt='' /> </p> </li> <br /> <li> <strong>Intermodulation noise</strong>: It occurs when two or more signals at different frequencies use the same transmission medium and they add together, producing signals at multiples of the original frequencies. Due to a malfunction of the transmitter, receiver, or the medium. </li> <br /> <li> <strong>Crosstalk</strong>: It is due to the coupling of two transmission signals causing both signals to mix. It is less frequent in air transmissions than in cable transmissions. </li> <br /> <li> <strong>Impulse noise</strong>: This is due to various reasons (atmospheric storms that cause electromagnetic disturbances, transmission media in poor condition, etc.). </li> </ul> <br /> <p> <strong>Signal/Noise Ratio (S/N)</strong>: Expresses the amount by which an information signal exceeds the noise level present in the communication medium. </p> <br /> <p style='text-align: center'> <img style='margin: 0 auto' src='assets/img/contenido-31-312-eq2.png' alt='' /> </p> </section> <br /> <section id='contenido-31__313'> <p> <strong>3.1.3 Channel Capacity (C)</strong>: This measurement sets the theoretical limit at which data can be transmitted over the communication channel. It is defined as the maximum speed at which data can be transmitted with good fidelity (low error rate) over a communication channel. It is measured in bits per second (bps). There are two important criteria for measuring channel capacity, Nyquist (ideal case) and Shannon: </p> <ul> <li> <p>Channel capacity according to Nyquist:</p> <br /> <p style='text-align: center'> <img style='margin: 0 auto' src='assets/img/contenido-31-313-eq1.png' alt='' /> </p> </li> <br /> <li> <p>Channel capacity according to Shannon:</p> <br /> <p style='text-align: center'> <img style='margin: 0 auto' src='assets/img/contenido-31-313-eq2.png' alt='' /> </p> </li> </ul> </section> </section>",
+          "recurso": ""
+        },
+        {
+          "seccion": 3.2,
+          "titulo": "Lifecycle and the Servlet API",
+          "descripcionRecurso": "List of codes for the NIC in both C and Java",
+          "keywords": [
+            "Flight Plots",
+            "Send Plots",
+            "Routines"
+          ],
+          "unidad": "<section class='content'> <section> <p class='description'> Next, we will describe the use of routines based on the PCAP4J libraries (JAVA language) and NPCAP (C language) to access the network card driver and be able to capture data frames. In order to use these libraries, the following is suggested: </p> <strong>PCAP4J</strong> <br /><br /> <ul> <li> To use the PCAP4J library, it is recommended to use the Netbeans Integrated Development Environment (IDE), which can be downloaded from the following link: <a href='https://netbeans.apache.org/'>Netbeans IDE</a> </li> <li> It is also recommended to use the Maven dependency manager to work on Netbeans projects. </li> <li> It is also recommended to download and install the NPCAP package, which can be downloaded from the following link: <a href='https://npcap.com/'>NPCAP package</a> and perform the installation process, remembering that during the installation process you must select the “Winpcap compatibility mode” box when it is visible on the screen. </li> <li> It is recommended to have a version of JDK installed on the computer; If you do not have it, you can download it from here: <a href='https://www.oracle.com/java/'>java JDK</a> </li> <li> Once the JDK and Netbeans are installed, proceed with the configuration of the PCAP4J library according to the following document: <a href='http://148.204.58.221/axel/redesnp/sniffer/pcap4j/pcap4J_configuraci%f3n.pdf' >configuration</a> </li> </ul> <br /> <strong>NPCAP</strong> <br /> <br /> <ul> <li> To use the NPCAP library, it is recommended to first download the installer from the following link: <a href='https://npcap.com/'>https://npcap.com/</a> and perform the installation process, not forgetting that during the installation process you must select the “Winpcap compatibility mode” box when it is visible on the screen. </li> <li> Once the NPCAP library is installed, it is necessary to install the DEVC++ compiler, which can be downloaded from the following link: <a href='http://148.204.58.221/axel/redesnp/sniffer/NPCAP/Dev-Cpp%205.11%20TDM-GCC%204.9.2%20Setup.exe' >DevC++ Compiler</a > </li> <li>Then follow the instructions for installation.</li> </ul> </section> <br /><br /> <section> <p><strong>3.2.1 Routines to read frames on the fly</strong></p> <br /> <strong>From PCAP4J</strong> <br /><br /> <ul> <li> <p> First, you must choose the network interface that will be used to capture frames. To do this we use the static method org.pcap4j.util.NifSelector.NifSelector(), which in turn allows us to use the selectNetworkInterface( ) method as can be seen below to allow the user to choose the network interface to be used: </p> <pre> <code> &NewLine; PcapNetworkInterface nif; &NewLine;try { &NewLine;&Tab;nif = new NifSelector( ).selectNetworkInterface(); &NewLine;} catch (IOException e) { &NewLine;&Tab;e.printStackTrace( ); &NewLine;&Tab;return; &NewLine;}//catch </code> </pre> </li> <li> <p> Next, we must configure the network interface descriptor to open it in promiscuous mode and thus be able to capture all frames that pass through the transmission medium and not just those directed to its MAC address. To configure the descriptor, it is necessary to specify the following parameters: NIC name, frame size to be captured (SNAPLEN), operation mode (PROMISCUO), read time per frame (in milliseconds), buffer size to store the frame data (in bytes). Once the opening parameters have been specified, the descriptor is opened with the build( ) method. </p> <pre> <code> &NewLine;PcapHandle handle = new PcapHandle.Builder(nif.getName()) &NewLine;&Tab;.snaplen(SNAPLEN) &NewLine;&Tab;.promiscuousMode(PromiscuousMode.PROMISCUOUS) &NewLine;&Tab;.timeoutMillis(READ_TIMEOUT) &NewLine;&Tab;.bufferSize(BUFFER_SIZE) &NewLine;&Tab;.build(); </code> </pre> </li> <li> <p> A capture filter is then created (if necessary) to specify the type of frames to be captured, otherwise a brute force capture will be performed. The capture filter format uses the same syntax as the <strong>tcpdump</strong> application: </p> <pre> <code> handle.setFilter(filter, BpfCompileMode.OPTIMIZE); </code> </pre> </li> <li> <p> Then, we proceed to capture the frames. To do this, we can use the getNextRawPacket( ) method of the handle instance: </p> <pre> <code> &NewLine;while (true) { &NewLine;&Tab;byte[ ] packet = handle.getNextRawPacket(); </code> </pre> <p> which will return a byte array with the contents of the frame so that we can begin analyzing it. If you want to capture multiple frames, we cycle it in an iteration structure (for or while). </p> </li> <li> <p> We can access each byte of the frame for further analysis: </p> <pre> <code> &NewLine;for(int j=0; j < packet.length; j++ ){ &NewLine;&Tab;System.out.printf(&quot;%02X &quot;,packet[j]); &NewLine;&Tab;if(j % ​​16 == 0 ) &NewLine;&Tab;System.out.println(&quot;&quot;); &NewLine;}//for </code> </pre> </li> <li> <p> To see a complete example, click on the following link: <a href='http://148.204.58.221/axel/redesnp/sniffer/pcap4j/GetNextRawPacket.java' > GetNextRawPacket.java </a> </p> </li> </ul> <br /> <strong>From NPCAP</strong> <br /><br /> <ul> <li> <p> First, you must choose the network interface that will be used to capture frames. To do this, we use two pcap_if_t type pointers, one of them will point to the beginning of a list of network interfaces found on the machine, the other will be used to go through each of the interfaces in the list: </p> <pre> <code> pcap_if_t *alldevs; &NewLine;pcap_if_t *d; &NewLine;char errbuf[PCAP_ERRBUF_SIZE]; </code> </pre> </li> <li> <p> We then call the pcap_findalldevs(&alldevs,errbuf) function to generate the list of network interfaces found, which will be referred to by the alldevs pointer. The second parameter of the function is just a buffer so that in case an input/output error is generated it is stored in it: </p> <pre> <code> if(pcap_findalldevs(&alldevs, errbuf) == -1) { &NewLine;&Tab;fprintf(stderr,&quot;Error in pcap_findalldevs: %s&quot;, errbuf); &NewLine;&Tab;exit(1); &NewLine;} </code> </pre> </li> <li> <p> Once the list of network cards is loaded with the information obtained by the pcap_findalldevs( ) function, we go through the list and display it so that the user can choose the card from which the frame capture will be made: </p> <pre> <code> &NewLine;for(d=alldevs; d; d=d->next) { &NewLine;&Tab;printf(&quot;%d. %s&quot;, ++i, d->name); &NewLine;&Tab;if (d->description) &NewLine;&Tab;&Tab;printf(&quot;(%s)&quot;, d->description); &NewLine;&Tab;else &NewLine;&Tab;&Tab;printf(&quot;(No description available)&quot;); &NewLine;} &NewLine;if(i==0){ &NewLine;&Tab;printf(&quot;No network interfaces found! Make sure NPCAP is installed.&quot;); &NewLine;&Tab;return -1; &NewLine;} &NewLine;printf(&quot;Choose the interface number to scan (1-%d):&quot;,i); &NewLine;scanf(&quot;%d&quot;, &inum); </code> </pre> </li> <li> <p> Scan through the list to the interface index chosen by the user </p> <pre> <code> for(d=alldevs, i=0; i < inum-1; d=d->next, i++); </code> </pre> </li> <li> <p> And we open the network interface descriptor using the pcap_open_live() function, in the arguments of this function we must specify: the name of the device, the portion of the packet to be captured, open mode (promiscuous to listen to all packets passing through the transmission medium), packet reading time, error buffer (in case of an input/output error). </p> <pre> <code> &NewLine;//<strong>d->name</strong>: name of the device &NewLine;//<strong>65536</strong>: portion of the packet to be captured 65536 allows the complete packet to be captured for different types of MACs. &NewLine;//<strong>1</strong>: promiscuous mode other than 0 means promiscuous) &NewLine;//<strong>1000</strong>: maximum frame reading time &NewLine;//<strong>errbuf</strong>: error buffer (if any) &NewLine;if ((adhandle= pcap_open_live(d->name, 65536, 1, 1000, errbuf)) == NULL) { &NewLine;&Tab;fprintf(stderr,&quot;Cannot open adapter. %s is not supported by NPcap&quot;, d->name); &NewLine;&Tab;/* clear the device list */ &NewLine;&Tab;pcap_freealldevs(alldevs); &NewLine;&Tab;return -1; &NewLine;} </code> </pre> </li> <li> <p> We then start the frame capture process using the pcap_loop() function, where the first argument to the function identifies the descriptor of the network adapter to be used, the second parameter indicates the number of frames to be captured (0 means infinite capture cycle), the third argument indicates the function that will be invoked to process the captured frame, and the fourth argument, if any, indicates a file name used to save the captured frame. </p> <pre> <code> pcap_loop(adhandle, 15, packet_handler, (unsigned char *)dumpfile); </code> </pre> </li> <li> <p> The analysis of the content of each frame, as seen in the previous point, will be done within the body of the function specified in the second argument of the pcap_loop function. That is, in the packet_handler function, whose syntax is as follows: </p> <pre> <code> void packet_handler(u_char *param, const struct pcap_pkthdr *header, const u_char *pkt_data) </code> </pre> <p> whose first argument specifies the name of the file where the captured frame will be saved (in case you want to store the captured frame in a file), the second argument will contain the frame header and the third argument will contain the raw frame, ready to be analyzed. For example, if we wanted to print the destination MAC address, source MAC address, and frame type of each captured frame, we would do the following in the body of the Packet_handler function: </p> <pre> <code> &NewLine;void packet_handler(u_char * dumpfile, &NewLine;const struct pcap_pkthdr * header, &NewLine;const u_char * pkt_data){ &NewLine;&Tab;int j = 0, k = 0; &NewLine;&Tab;printf(&quot&quot;Destination MAC:&quot&quot;); &NewLine;&Tab;for (j = 0; j < 6; j++) { &NewLine;&Tab;&Tab;printf(&quot&quot;%02X:&quot&quot;, pkt_data[j]); &NewLine;&Tab;} &NewLine;&Tab;printf(&quot&quot;Source MAC:&quot&quot;); &NewLine;&Tab;for (k = 6; k < 12; k++) { &NewLine;&Tab;&Tab;printf(&quot;%02X: &quot;, pkt_data[k]); &NewLine;&Tab;} &NewLine;&Tab;printf(&quot; &quot;); &NewLine;&Tab;unsigned short type = (pkt_data[12] * 256) + pkt_data[13]; &NewLine;&Tab;printf(&quot;Type: %d %02X %02X &quot;, type, pkt_data[12], pkt_data[13]); &NewLine;} </code> </pre> </li> <li> <p> To see a complete example, click on the following link: <a href='http://148.204.58.221/axel/redesnp/sniffer/NPCAP/captura.c' >capturas.c</a > </p> </li> </ul> </section> <br /> <section> <h4>3.2.2 Routines for reading frames from a file</h4> <strong>From PCAP4J</strong> <br /><br /> <ul> <li> <p> First, we specify the type of file to be read (.pcap), for this we put the following instruction: </p> <pre> <code> private static final String PCAP_FILE_KEY = ReadPacketFile.class.getName() + &quot;.pcapFile&quot;; </code> </pre> </li> <li> <p> Then, we specify the name of the file that will be opened for reading (&quot;paquetes3.pcap&quot;), as shown below: </p> <pre> <code> &NewLine;private static final String PCAP_FILE = &NewLine;System.getProperty(PCAP_FILE_KEY, &quot;paquetes3.pcap&quot;); </code> </pre> </li> <li> <p> Next, we try to open the file using the openOffline() method, specifying the file name and the time measurement units for reading the frames. We must consider that perhaps when trying to open the file, Input/Output exceptions could occur. </p> <pre> <code> &NewLine;try { &NewLine;&Tab;handle = Pcaps.openOffline(PCAP_FILE, TimestampPrecision.NANO); &NewLine;} catch (PcapNativeException e) { &NewLine;&Tab;handle = Pcaps.openOffline(PCAP_FILE); &NewLine;} </code> </pre> </li> <li> <p> Once the file is opened, we begin the manual processing of each frame contained in it (in this example we will try to read up to 32 frames): </p> <pre> <code> &NewLine;for (int i = 0; i < 32; i++) { &NewLine;try { &NewLine;&Tab;byte[] packet = handle.getNextRawPacket(); &NewLine;&Tab;for(int j=0; j < packet.length; j++){ &NewLine;&Tab;&Tab;if(j%16==0) &NewLine;&Tab;&Tab;&Tab;System.out.println(&quot;&quot;); &NewLine;&Tab;&Tab;System.out.printf(&quot;%02X &quot;,packet[j]); &NewLine;&Tab;}//for &NewLine;&Tab;System.out.println(&quot;&quot;); &NewLine;}catch(Exception e){ &NewLine;&Tab;e.printStackTrace(); &NewLine;} </code> </pre> </li> <li> <p>Once the frames have been processed we proceed to close the file</p> <pre> <code> handle.close(); </code> </pre> </li> <li> <p> To see a complete example, click on the following link: <a href='http://148.204.58.221/axel/redesnp/sniffer/pcap4j/ReadPacketFile.java' >ReadPacketFile.java</a > </p> </li> </ul> <br /> <strong>From NPCAP</strong> <br /> <br /> <ul> <li> <p> We start by defining the canonical name of the file that will be read and that contains the frames to be analyzed from NPCAP, in this example it is called &quot;paquetes3.pcap&quot;. </p> <pre> <code> &NewLine;#define PATH &quot;D:\\Documents\\Redespcap\\paquetes3.pcap&quot; </code> </pre> </li> <li> <p> Next we need to configure the way in which the file will be attempted to be opened, since NPCAP allows the opening and processing of local or remote files, for this the function pcap_createsrcstr( ) is used, the first argument of this function will save the string with the name of the file to be opened, the second argument allows to specify the type of source from which the reading of frames will be done (in this case a file). The third argument would allow to indicate the address of the host (in case the analysis is remote, for this example it is NULL because the analysis is local), the fourth argument allows to specify the remote port (in case the analysis is remote, for this example it is NULL because the analysis is local), the fifth argument allows to define the path (canonical name of the file to be opened) and the last argument allows to define a buffer where the error message will be saved in case it exists at the time of trying to read the resource to be read. </p> <pre> <code> &NewLine;//<strong>source</strong>>: variable that will save the path of the file &NewLine;//<strong>PCAP_SRC_FILE</strong>>: we want to open a file &NewLine;//<strong>NULL</strong>>: remote host &NewLine;//<strong>NULL</strong>>: port on the remote host &NewLine;//<strong>PATH</strong>>: name of the file we want to open &NewLine;//<strong>errbuf</strong>>: buffer to save error messages (if any) &NewLine;if ( pcap_createsrcstr( source, PCAP_SRC_FILE, NULL, NULL, PATH, errbuf ) != 0) { &NewLine;&Tab;fprintf(stderr,&quot;Error creating data source string&quot;); &NewLine;&Tab;return -1; &NewLine;} </code> </pre> </li> <li> <p> Next, we will try to open the file for reading, for this we will use the pcap_open( ) function, in the arguments of this function we must specify: the name of the device, the portion of the packet to be captured, opening mode (promiscuous to listen to all packets that pass through the transmission medium), packet reading time, whether any user authentication will be done (only for remote analysis), error buffer (in case of an input/output error). As a result, we will obtain a descriptor of type <strong>pcap_t</strong> </p> <pre> <code> &NewLine;//<strong>source</strong> name of the device &NewLine;//<strong>65536</strong> portion of the packet to be captured 65536 allows the complete packet to be captured for different types of MACs. &NewLine;//<strong>PCAP_OPENFLAG_PROMISCUOUS</strong> promiscuous mode other than 0 means promiscuous) &NewLine;//<strong>1000</strong> maximum frame read time &NewLine;//<strong>NULL</strong> authentication on remote host &NewLine;//<strong>errbuf</strong> error buffer (if any) &NewLine;pcap_t *fp; &NewLine; if (( fp= (pcap_t * ) pcap_open( source, 65536, PCAP_OPENFLAG_PROMISCUOUS, 1000, NULL, errbuf )) == NULL) { &NewLine;&Tab;fprintf(stderr,&quot;Unable to open the file %s&quot;, source); &NewLine;&Tab;return -1; &NewLine;} </code> </pre> </li> <li> <p> Once the file is open for reading, we proceed to read the frames. To do this we will use the pcap_loop ( ) function, where the first argument of the function identifies the descriptor of the reading device to be used, the second parameter indicates the number of frames to be captured (0 means infinite capture cycle), the third argument indicates the function that will be invoked to process the captured frame, and the fourth argument, if there is one, indicates a file name used to save the captured frame. </p> <pre> <code> pcap_loop(fp, 0, dispatcher_handler, NULL); </code> </pre> </li> <li> <p> Next, we proceed to create the dispatcher_handler function that will process the content of each frame read </p> <pre> <code> void dispatcher_handler(u_char *temp1, &NewLine;const struct pcap_pkthdr *header, const u_char *pkt_data) </code> </pre> <p> The first argument to the function specifies the name of the file where the captured frame will be saved (in this case, there is already a file, so this argument will not be used), the second argument will contain the frame header, and the third argument will contain the raw frame, ready to be analyzed. For example, if we wanted to print the destination MAC address, source MAC address, and frame type of each captured frame, we would do the following in the body of the dispatcher_handler function </p> <pre> <code> &NewLine;{ &NewLine;int j=0,k=0; &NewLine;printf(&quot;MAC destination:&quot;); &NewLine;for(j=0; j < 6; j++){ &NewLine;&Tab;printf(&quot;%02X:&quot;,pkt_data[j]); &NewLine;} &NewLine;printf(&quot; MAC source:&quot;); &NewLine;for(k=6; k < 12; k++){ &NewLine;&Tab;printf(&quot;%02X: &quot;,pkt_data[k]); &NewLine;} &NewLine;printf(&quot; &quot;); &NewLine;unsigned short type = (pkt_data[12]*256)+pkt_data[13]; &NewLine;printf(&quot;Type: %d %02X %02X &quot;,type,pkt_data[12],pkt_data[13]); &NewLine;} </code> </pre> </li> <li> <p> To see a complete example, click on the following link: <a href='http://148.204.58.221/axel/redesnp/LLC/LLC.c'>LLC.C</a> </p> </li> </ul> </section> </section>",
+          "recurso": ""
+        },
+        {
+          "seccion": 3.3,
+          "titulo": "HttpServlets",
+          "descripcionRecurso": "",
+          "keywords": [
+            "HDLC",
+            "Headers",
+            "Frame Analysis"
+          ],
+          "unidad": "<div class='embed-responsive embed-responsive-16by9 diapos'><object data='assets/data/HDLC_LLC.pdf' type='application/pdf'></object></div>",
+          "recurso": "<h4>IEEE 802.3 standard</h4><div class='embed-responsive embed-responsive-16by9 diapos'> <object data='assets/data/3_3_EstandarIEEE802.pdf' type='application/pdf' ></object> </div><br /><br />"
+        }
+      ],
+      "presentaciones": [
+        {
+          "seccion": 3.1,
+          "titulo": "Introduction to Servlets",
+          "descripcionRecurso": "",
+          "category": "reading",
+          "recurso": "<iframe class='embed-responsive-item' frameborder='0' src='assets/data/3_1_FundamentosDeCapaFisica.pdf' type='text/html' allowscriptaccess='always' allowfullscreen='true' scrolling='yes' allownetworking='all'></iframe>"
+        },
+        {
+          "seccion": "",
+          "titulo": "Solved examples of the topic",
+          "descripcionRecurso": "",
+          "category": "reading",
+          "recurso": "<iframe class='embed-responsive-item' frameborder='0' src='assets/data/3_1_EjemplosResueltosTema.pdf' type='text/html' allowscriptaccess='always' allowfullscreen='true' scrolling='yes' allownetworking='all'></iframe>"
+        },
+        {
+          "seccion": 3.2,
+          "titulo": "Lifecycle and the Servlet API",
+          "descripcionRecurso": "",
+          "category": "reading",
+          "recurso": "<iframe class='embed-responsive-item' frameborder='0' src='assets/data/NIC_Npcap.pdf' type='text/html' allowscriptaccess='always' allowfullscreen='true' scrolling='yes' allownetworking='all'></iframe>"
+        },
+        {
+          "seccion": "",
+          "titulo": "Accessing the network card driver in C",
+          "descripcionRecurso": "",
+          "category": "reading",
+          "recurso": "<iframe class='embed-responsive-item' frameborder='0' src='http://148.204.58.221/axel/redesnp/sniffer/NPCAP/' type='text/html' allowscriptaccess='always' allowfullscreen='true' scrolling='yes' allownetworking='all'></iframe>"
+        },
+        {
+          "seccion": "",
+          "titulo": "Accessing the network card driver in JAVA",
+          "descripcionRecurso": "",
+          "category": "reading",
+          "recurso": "<iframe class='embed-responsive-item' frameborder='0' src='assets/data/NIC_Pcap4J.pdf' type='text/html' allowscriptaccess='always' allowfullscreen='true' scrolling='yes' allownetworking='all'></iframe>"
+        },
+        {
+          "seccion": "",
+          "titulo": "Accessing the network card driver in JAVA",
+          "descripcionRecurso": "",
+          "category": "reading",
+          "recurso": "<iframe class='embed-responsive-item' frameborder='0' src='http://148.204.58.221/axel/redesnp/sniffer/pcap4j/' type='text/html' allowscriptaccess='always' allowfullscreen='true' scrolling='yes' allownetworking='all'></iframe>"
+        },  
+        {
+          "seccion": "",
+          "titulo": "Address Resolution Protocol (ARP)",
+          "descripcionRecurso": "",
+          "category": "reading",
+          "recurso": "<iframe class='embed-responsive-item' frameborder='0' src='assets/data/ARP.pdf' type='text/html' allowscriptaccess='always' allowfullscreen='true' scrolling='yes' allownetworking='all'></iframe>"
+        },
+        {
+          "seccion": "",
+          "titulo": "Network and Transport Layer Protocols",
+          "descripcionRecurso": "",
+          "category": "reading",
+          "recurso": "<iframe class='embed-responsive-item' frameborder='0' src='assets/data/IP_ICMP_IGMP.pdf' type='text/html' allowscriptaccess='always' allowfullscreen='true' scrolling='yes' allownetworking='all'></iframe>"
+        },
+        {
+          "seccion": 3.3,
+          "titulo": "HttpServlets",
+          "descripcionRecurso": "",
+          "category": "reading",
+          "recurso": "<iframe class='embed-responsive-item' frameborder='0' src='assets/data/3_3_EstandarIEEE802.pdf' type='text/html' allowscriptaccess='always' allowfullscreen='true' scrolling='yes' allownetworking='all'></iframe>"
+        }
+      ],
+      "recurso": [
+        {
+          "seccion": "",
+          "titulo": "NPCAP installation tutorial in C",
+          "descripcionRecurso": "",
+          "category": "video",
+          "recurso": "<iframe class='embed-responsive-item' src='https://www.youtube.com/embed/SeqaCDfdzpo' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
+        },
+        {
+          "seccion": "",
+          "titulo": "Tutorial on how to list network interfaces with NPCAP in C",
+          "descripcionRecurso": "",
+          "category": "video",
+          "recurso": "<iframe class='embed-responsive-item' src='https://www.youtube.com/embed/iEnKeBHVHqg' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
+        },
+        {
+          "seccion": "",
+          "titulo": "Tutorial on how to display a plot using NPCAP in C",
+          "descripcionRecurso": "",
+          "category": "video",
+          "recurso": "<iframe class='embed-responsive-item' src='https://www.youtube.com/embed/cFgc22wn1e0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
+        },
+        {
+          "seccion": "",
+          "titulo": "Tutorial on how to analyze a frame using NPCAP in C",
+          "descripcionRecurso": "",
+          "category": "video",
+          "recurso": "<iframe class='embed-responsive-item' src='https://www.youtube.com/embed/CprEysiSZJE' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
+        },
+        {
+          "seccion": "",
+          "titulo": "Tutorial on how to send ethernet frames using NPCAP in C",
+          "descripcionRecurso": "",
+          "category": "video",
+          "recurso": "<iframe class='embed-responsive-item' src='https://www.youtube.com/embed/o1XP_NobvtE' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
+        },
+        {
+          "seccion": "",
+          "titulo": "Tutorial on how to send .PCAP files over ethernet using NPCAP in C",
+          "descripcionRecurso": "",
+          "category": "video",
+          "recurso": "<iframe class='embed-responsive-item' src='https://www.youtube.com/embed/UtCxeBRJsZw' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
+        },
+        {
+          "seccion": "",
+          "titulo": "Tutorial for Filtering Frames with NPCAP in C",
+          "descripcionRecurso": "",
+          "category": "video",
+          "recurso": "<iframe class='embed-responsive-item' src='https://www.youtube.com/embed/LJJpbCcEpm0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
+        },
+        {
+          "seccion": "",
+          "titulo": "Configuring PCAPJ4 in Java",
+          "descripcionRecurso": "",
+          "category": "video",
+          "recurso": "<iframe class='embed-responsive-item' src='https://www.youtube.com/embed/LWMB3PpejME' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
+        },
+        {
+          "seccion": "",
+          "titulo": "Viewing frames with PCAP4J",
+          "descripcionRecurso": "",
+          "category": "video",
+          "recurso": "<iframe class='embed-responsive-item' src='https://www.youtube.com/embed/mmOaHJsUKKs' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
+        },
+        {
+          "seccion": "",
+          "titulo": "Plot analysis with PCAP4J",
+          "descripcionRecurso": "",
+          "category": "video",
+          "recurso": "<iframe class='embed-responsive-item' src='https://www.youtube.com/embed/H8-HPkwSycc' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
+        },
+        {
+          "seccion": "",
+          "titulo": "Capturing Frames in a PCAP File with PCAP4J",
+          "descripcionRecurso": "",
+          "category": "video",
+          "recurso": "<iframe class='embed-responsive-item' src='https://www.youtube.com/embed/NovAYG12FEE' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
+        },
+        {
+          "seccion": "",
+          "titulo": "Creating Frames and Sending Them Using PCAP4J",
+          "descripcionRecurso": "",
+          "category": "video",
+          "recurso": "<iframe class='embed-responsive-item' src='https://www.youtube.com/embed/h53mYo7WesM' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
+        },
+        {
+          "seccion": "",
+          "titulo": "ARP",
+          "descripcionRecurso": "",
+          "category": "video",
+          "recurso": "<iframe class='embed-responsive-item' frameborder='0' src='assets/data/ARP_.pdf' type='text/html' allowscriptaccess='always' allowfullscreen='true' scrolling='yes' allownetworking='all'></iframe>"
+        },
+        {
+          "seccion": "",
+          "titulo": "",
+          "descripcionRecurso": "",
+          "category": "",
+          "recurso": ""
+        }
+      ]
+    },
+    {
+      "indice": 4,
+      "titulo": "Lenguaje de Marcado eXtensible (XML)",
+      "imagen": "https://ruizhealytimes.com/wp-content/uploads/2020/12/Internet-velocidad-Foto-Archivo.jpg",
+      "competencia": "Diseña contenido web con base en los documentos y reglas XML.",
+      "keywords": [
+        "Internet IP", 
+        "IP Routing", 
+        "ARP", 
+        "ICMP", 
+        "IGMP"
+      ],
+      "evaluacion": "<h3 class='text-center mt-4'>Section without information</h3>",
+      "autoevaluacion": "<h3 class='text-center mt-4'>Section without information</h3>",
+      "coevaluacion": "<h3 class='text-center mt-4'>Section without information</h3>",
+      "cuadroEval": "assets/img/bibliografia.png",
+      "activities": [
+        {
+          "section": 4.1,
+          "title": "Section without information",
+          "embed": "<iframe loading='lazy' src='' class='embed-responsive-item' frameborder='0'></iframe>"
+        }
+      ],
+      "contenido": [
+        {
+          "seccion": 4.1,
+          "titulo": "History of XML",
+          "descripcionRecurso": "",
+          "keywords": [
+            "IPv4",
+            "IPv6",
+            "Headers",
+            "Frames"
+          ],
+          "unidad": "",
+          "recurso": ""
+        },
+        {
+          "seccion": 4.2,
+          "titulo": "XML Elements",
+          "descripcionRecurso": "",
+          "keywords": [
+            "Static Routing",
+            "Dynamic Routing"
+          ],
+          "unidad": "",
+          "recurso": ""
+        },
+        {
+          "seccion": 4.3,
+          "titulo": "Document Type (DTD)",
+          "descripcionRecurso": "",
+          "keywords": [
+            "ARP",
+            "Plots"
+          ],
+          "unidad": "",
+          "recurso": ""
+        },
+        {
+          "seccion": 4.4,
+          "titulo": "XML Schema",
+          "descripcionRecurso": "",
+          "keywords": [
+            "ICMP",
+            "Plots"
+          ],
+          "unidad": "",
+          "recurso": ""
+        },
+        {
+          "seccion": 4.5,
+          "titulo": "Document Object Model (DOM)",
+          "descripcionRecurso": "",
+          "keywords": [
+            "IGMP",
+            "DVMRP",
+            "PIM",
+            "MSDP"
+          ],
+          "unidad": "",
+          "recurso": ""
+        }
+        ,
+        {
+          "seccion": 4.6,
+          "titulo": "Creating, modifying and deleting static and dynamic XML files",
+          "descripcionRecurso": "",
+          "keywords": [
+            "IGMP",
+            "DVMRP",
+            "PIM",
+            "MSDP"
+          ],
+          "unidad": "",
+          "recurso": ""
+        }
+      ],
+      "recurso": [
+        {
+          "seccion": 4.1,
+          "titulo": "Section without information",
+          "descripcionRecurso": "",
+          "category": "video",
+          "recurso": "<iframe class='embed-responsive-item' frameborder='0' src='' type='text/html' allowscriptaccess='always' allowfullscreen='true' scrolling='yes' allownetworking='all'></iframe>"
+        },
+        {
+          "seccion": 4.2,
+          "titulo": "Section without information",
+          "descripcionRecurso": "Section without information",
+          "category": "reading",
+          "recurso": "<iframe class='embed-responsive-item' frameborder='0' src='' type='text/html' allowscriptaccess='always' allowfullscreen='true' scrolling='yes' allownetworking='all'></iframe>"
+        }
+      ]
+    },
+    {
+      "indice": 5,
+      "titulo": "Cascading Style Sheets",
+      "imagen": "https://jaidoman.files.wordpress.com/2015/02/iot.png",
+      "competencia": "Design responsive layout based on Cascading Style Sheets (CSS).",
+      "keywords": [
+        "TCP",
+        "UDP"
+      ],
+      "evaluacion": "<h3 class='text-center mt-4'>Section without information</h3>",
+      "autoevaluacion": "<h3 class='text-center mt-4'>Section without information</h3>",
+      "coevaluacion": "<h3 class='text-center mt-4'>Section without information</h3>",
+      "cuadroEval": "assets/img/bibliografia.png",
+      "activities": [
+        {
+          "section": 5.1,
+          "title": "Section without information",
+          "embed": "<iframe loading='lazy' src='' class='embed-responsive-item' frameborder='0'></iframe>"
+        }
+      ],
+      "contenido": [
+        {
+          "seccion": 5.1,
+          "titulo": "History of Cascading Style Sheets (CSS)",
+          "descripcionRecurso": "",
+          "keywords": [
+            "TCP headers"
+          ],
+          "unidad": "<h3 class='text-center'>Section without information</h3>",
+          "recurso": ""
+        },
+        {
+          "seccion": 5.2,
+          "titulo": "Basics of styles",
+          "descripcionRecurso": "",
+          "keywords": [
+            "UDP headers"
+          ],
+          "unidad": "<h3 class='text-center'>Section without information</h3>",
+          "recurso": ""
+        },
+        {
+          "seccion": 5.3,
+          "titulo": "Selectors",
+          "descripcionRecurso": "",
+          "keywords": [
+            "Segments", 
+            "Datagrams"
+          ],
+          "unidad": "<h3 class='text-center'>Section without information</h3>",
+          "recurso": ""
+        },
+        {
+          "seccion": 5.4,
+          "titulo": "Style rules",
+          "descripcionRecurso": "",
+          "keywords": [
+            "Segments", 
+            "Datagrams"
+          ],
+          "unidad": "<h3 class='text-center'>Section without information</h3>",
+          "recurso": ""
+        },
+        {
+          "seccion": 5.5,
+          "titulo": "Boxes Model",
+          "descripcionRecurso": "",
+          "keywords": [
+            "Segments", 
+            "Datagrams"
+          ],
+          "unidad": "<h3 class='text-center'>Section without information</h3>",
+          "recurso": ""
+        },
+        {
+          "seccion": 5.6,
+          "titulo": "General style properties for HTML elements",
+          "descripcionRecurso": "",
+          "keywords": [
+            "Segments", 
+            "Datagrams"
+          ],
+          "unidad": "<h3 class='text-center'>Section without information</h3>",
+          "recurso": ""
+        },
+        {
+          "seccion": 5.7,
+          "titulo": "Positioning of elements",
+          "descripcionRecurso": "",
+          "keywords": [
+            "Segments", 
+            "Datagrams"
+          ],
+          "unidad": "<h3 class='text-center'>Section without information</h3>",
+          "recurso": ""
+        },
+        {
+          "seccion": 5.8,
+          "titulo": "Advanced Style Properties",
+          "descripcionRecurso": "",
+          "keywords": [
+            "Segments", 
+            "Datagrams"
+          ],
+          "unidad": "<h3 class='text-center'>Section without information</h3>",
+          "recurso": ""
+        },
+        {
+          "seccion": 5.9,
+          "titulo": "Creating, modifying and deleting static CSS and dynamic XML files",
+          "descripcionRecurso": "",
+          "keywords": [
+            "Segments", 
+            "Datagrams"
+          ],
+          "unidad": "<h3 class='text-center'>Section without information</h3>",
+          "recurso": ""
+        },
+        {
+          "seccion": 5.10,
+          "titulo": "Responsive Design Guidelines",
+          "descripcionRecurso": "",
+          "keywords": [
+            "Segments", 
+            "Datagrams"
+          ],
+          "unidad": "<h3 class='text-center'>Section without information</h3>",
+          "recurso": ""
+        }
+      ],
+      "recurso": [
+        {
+          "seccion": 5.1,
+          "titulo": "There is no information for this unit yet.",
+          "descripcionRecurso": "",
+          "keywords": [],
+          "unidad": "<h3 class='text-center'>Section without information</h3>",
+          "recurso": ""
+        }
+      ]
+    },
+    {
+      "indice": 6,
+      "titulo": "JavaScript y AJAX",
+      "imagen": "https://jaidoman.files.wordpress.com/2015/02/iot.png",
+      "competencia": "Develop web applications using AJAX and JSON based on the management of Javascript frameworks.",
+      "keywords": [
+        "TCP",
+        "UDP"
+      ],
+      "evaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
+      "autoevaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
+      "coevaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
+      "cuadroEval": "assets/img/bibliografia.png",
+      "activities": [
+        {
+          "section": 6.1,
+          "title": "Sección sin información",
+          "embed": "<iframe loading='lazy' src='' class='embed-responsive-item' frameborder='0'></iframe>"
+        }
+      ],
+      "contenido": [
+        {
+          "seccion": 6.1,
+          "titulo": "History of JavaScript",
+          "descripcionRecurso": "",
+          "keywords": [
+            "Encabezados TCP"
+          ],
+          "unidad": "<h3 class='text-center'>Sección sin información</h3>",
+          "recurso": ""
+        },
+        {
+          "seccion": 6.2,
+          "titulo": "JavaScript Element Syntax",
+          "descripcionRecurso": "",
+          "keywords": [
+            "Encabezados UDP"
+          ],
+          "unidad": "<h3 class='text-center'>Sección sin información</h3>",
+          "recurso": ""
+        },
+        {
+          "seccion": 6.3,
+          "titulo": "JSON Notation",
+          "descripcionRecurso": "",
+          "keywords": [
+            "Segmentos",
+            "Datagramas"
+          ],
+          "unidad": "<h3 class='text-center'>Sección sin información</h3>",
+          "recurso": ""
+        },
+        {
+          "seccion": 6.4,
+          "titulo": "JavaScript Frameworks",
+          "descripcionRecurso": "",
+          "keywords": [
+            "Segmentos",
+            "Datagramas"
+          ],
+          "unidad": "<h3 class='text-center'>Sección sin información</h3>",
+          "recurso": ""
+        },
+        {
+          "seccion": 6.5,
+          "titulo": "History of AJAX",
+          "descripcionRecurso": "",
+          "keywords": [
+            "Segmentos",
+            "Datagramas"
+          ],
+          "unidad": "<h3 class='text-center'>Sección sin información</h3>",
+          "recurso": ""
+        }
+      ],
+      "recurso": [
+        {
+          "seccion": 6.1,
+          "titulo": "Aún no existe información para esta unidad",
+          "descripcionRecurso": "",
+          "keywords": [],
+          "unidad": "<h3 class='text-center'>Sección sin información</h3>",
+          "recurso": ""
+        }
+      ]
+    }  
+  ]
+  

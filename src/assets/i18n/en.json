@@ -1,0 +1,176 @@
+{
+    "app": {
+      "firstTitle": "Technologies for Web",
+      "secondTitle": "Application Development",
+      "home": "Home",
+      "units": "Units",
+      "moreInfo": "More Information",
+      "lang": "Language",
+      "sources": "Sources",
+      "glossary": "Glossary",
+      "userManual": "User Manual",
+      "en": "English",
+      "es": "Spanish"
+    },
+    "home": {
+      "welcome": {
+        "title": "Welcome",
+        "embed": "https://www.youtube-nocookie.com/embed/HfG2zySCAw8?si=QCmEZVUb0DRsaqGG&cc_load_policy=1&cc_lang_pref=en&controls=1&autoplay=1",
+        "lemma": ""
+      },
+      "about-course": {
+        "title": "About the course",
+        "content": {
+          "header": "Welcome to this digital didactic resource (RDD) of the Learning Unit (UA) of Technologies for Web Application Development taught at the Escuela Superior de Cómputo of the Instituto Politécnico Nacional (National Polytechnic Institute). This RDD was built with the purpose of promoting autonomous learning, as well as to facilitate, enrich and strengthen the teaching-learning processes of the UA in question in the school-based modality.",
+          "main-text": "The learning unit contributes to the graduate profile of the Computer Systems Engineer with the development of skills for the creation of Web applications, consisting of the following elements: static and dynamic Web pages, XML-based metadata, client-side programming (Front-End) based on JavaScript, and server-side programming (Back-End) based on the Java programming language, JavaScript-based frameworks, and server-side frameworks based on the Java programming language based on JavaScript, and server-side (Back-End) based on the Java programming language, Web application development frameworks and database connection, applying good programming practices. Collaborative teamwork, leadership, ethics and decision making are encouraged. This learning unit is antecedently related to Databases and Programming Paradigms, and consequently to Software Quality Assurance and Design Patterns and Web client and Backend Development Frameworks."
+        }
+      },
+      "methodology": { 
+        "title": "Methodology",
+        "content": {
+          "header": "The students will engage in the following activities:",
+          "list": {
+            "i1": "Documentary inquiry",
+            "i2": "Guided discussion",
+            "i3": "Graphic organizers",
+            "i4": "Technical practices",
+            "i5": "Integrated projects",
+            "i6": "Specific practices per thematic unit",
+            "i7": "Collaborative work",
+            "i8": "Continuous evaluation"
+          }
+        }
+      },
+      "competence": { 
+        "title": "Competency unit: Technologies for Web application development",
+        "content": {
+          "header": "Develop Web applications based on HTML, XML, Java, JavaScript, AJAX, a JavaScript framework and database connection technologies."
+        }
+      },
+      "eval": { 
+        "title": "Evaluation", 
+        "content": {
+          "header": "",
+          "sub-header": "",
+          "list": {
+            "i1": "Diagnostic assessment to identify prior knowledge in web development.",
+            "i2": "Portfolio of evidence with reports of inquiry into web technologies.",
+            "i3": "Documented and functional web application programs.",
+            "i4": "Graphic organizers on architecture and data flows.",
+            "i5": "Design and configuration of dynamic web applications.",
+            "i6": "Modular project developed in six phases from initial HTML to implementation with frameworks and responsive design.",
+            "i7": "Reports of practices carried out in web technologies.",
+            "i8": "Written assessment with theoretical and practical exams."
+          }
+        }
+      },
+      "strat": { 
+        "title": "Learning strategies",
+        "content": {
+          "header": "Students will carry out the following activities:",
+          "list": {
+            "i1": "Documentary research on the evolution of the Internet, web standards and development technologies such as HTML, CSS, JavaScript, AJAX and Servlets.",
+            "i2": "Directed discussion on key concepts of web development, such as Client/Server architecture and web protocols.",
+            "i3": "Graphic organizers that represent architectures, data flows and web application design.",
+            "i4": "Use of web development tools to create and debug static and dynamic applications.",
+            "i5": "Use of JavaScript frameworks and development environments to implement dynamic applications.",
+            "i6": "Development of a modular project integrated by phases throughout the thematic units, from static pages to advanced responsive applications.",
+            "i7": "Performance of technical practices that strengthen the knowledge acquired in each thematic unit."
+          }
+        } 
+      },
+      "prog": { 
+        "title": "Syllabus", 
+        "content": {
+          "header": "Scan the QR code to download the Syllabus."
+        }     
+      },
+      "contacts": { 
+        "title": "Contact", 
+        "content": {
+          "text-1": "Professional development:",
+          "text-2": "Areas of interest:"
+        },
+        "footer": "More about the teacher"
+      },
+      "req": { 
+        "title": "Requirements", 
+        "content": {
+          "list-1": {
+            "title": "Mobile Device:",
+            "i1": "Android 4.4 or higher",
+            "i2": "iOS 9.0 or higher",
+            "i3": "Internet connection"
+          },
+          "list-2": {
+            "title": "Computer Equipment:",
+            "i1": "Processor: 500 MHz or higher",
+            "i2": "Memory: 256 MB or higher",
+            "i3": "Storage: 500 MB or higher",
+            "i4": "Internet connection"
+          },
+          "list-3": {
+            "title": "Supported Browsers:",
+            "i1": "Internet Explorer 10 or higher",
+            "i2": "Microsoft Edge",
+            "i3": "Mozilla Firefox 38 or higher",
+            "i4": "Google Chrome 45 or higher",
+            "i5": "Opera 30 or higher",
+            "i6": "Safari 9 or higher",
+            "i7": "WebView (Android)"
+          }
+        }
+      }
+    },
+    "footer": {
+      "units": "Units",
+      "resources": "Resources",
+      "autoev": "Self-assessment"
+    },
+    "unit": {
+      "1": "Basics of Web application development",
+      "2": "Web pages with HTML",
+      "3": "Java Servlets",
+      "4": "eXtensible Markup Language (XML)",
+      "5": "Cascading Style Sheets (CSS)",
+      "6": "JavaScript and AJAX"
+    },
+    "units-info": {
+      "prefix": "Unit",
+      "pre-titulo": "Unit of competence",
+      "content-table": {
+        "item-1": "Content",
+        "item-2": "Unit-based assessment",
+        "item-3": "Learning activities",
+        "item-4": "Self-assessment",
+        "item-5": "Co-assessment",
+        "item-6": "Presentation",
+        "item-7": "Additional material"
+      },
+      "text-1": "Click on the title of each section to view the content.",
+      "text-2": "Click on the title of the activity to view the content.",
+      "text-3": "Click on the title of the presentation to view its content.",
+      "text-4": "Here you will find auxiliary videos to the unit"
+    },
+    "sources": {
+      "title": "Sources",
+      "image": "assets/img/bibliografia.png"
+    },
+    "glossary": {
+      "title": "Technologies for Web Application Development Glossary",
+      "word": "Word",
+      "concept": "Concept"
+    },
+    "datatable": {
+      "search": "Search",
+      "paginate": {
+        "first": "First",
+        "last": "Last",
+        "previous": "Previous",
+        "next": "Next"
+      },
+      "info": "Showing _START_ to _END_ of _TOTAL_ records",
+      "lengthMenu": "Show _MENU_ entries"
+    }
+  }
+  

@@ -1,0 +1,269 @@
+.nav-main{
+  padding: 2rem 0 2rem 0; /*Top Rigth Bottom Left */ /*TB LR*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.nav-main a{
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.list-cat{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+  gap: 2rem;
+}
+.categories{
+  padding-top: 5rem;
+}
+
+.prof-photo{
+  width: auto;
+  height: 35rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 25%;
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.category p{
+  display: block;
+  text-align: center;
+  padding: 2rem;
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.category p button{
+  font-size: 1.75rem;
+}
+
+.title{
+  margin-top: 1.5rem;
+}
+
+.category p:hover{
+  background-color: #037bc0;
+  color: white;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.category p:hover button{
+  color: white;
+}
+
+
+.container-welcome {
+  text-align: center;
+  max-width: 100%;
+  padding: 0 10%;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+  white-space: nowrap;
+}
+
+.blinking-cursor {
+  user-select: none;
+  animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+#type-text{
+  margin-top: 1rem;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+#type-text-no-delete {
+  font-size: 24px;
+  font-weight: 600;
+  white-space: pre-wrap; /* Esto hace que los saltos de línea sean visibles */
+  display: inline-block;
+  word-wrap: break-word; /* Asegura que las palabras largas también se dividan si es necesario */
+  text-align: justify;
+}
+
+.about-us-img {
+  position: relative;
+  background-image: url(../../../assets/img/tech_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.image-source {
+  position: absolute; /* Posiciona el texto de forma absoluta en relación con el contenedor padre */
+  bottom: 5px; /* Coloca el texto 5px desde el borde inferior del contenedor */
+  left: 5px; /* Coloca el texto 5px desde el borde derecho del contenedor */
+  font-size: 0.8em; /* Tamaño del texto */
+  color: #fff; /* Color del texto */
+}
+
+.competence-img {
+  position: relative;
+  width: 50%; /* Ajustamos el ancho al 100% del contenedor */
+  padding-bottom: 30%; /* Proporción de aspecto deseada (ajustar según sea necesario) */
+  background-image: url(../../../assets/img/tech_3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; /* Centra horizontalmente y verticalmente */
+}
+
+.aux-div{
+  flex-basis: 50%;
+  padding-left: 8rem;
+  color: white;
+}
+
+.grid-au{
+  display: flex;
+  justify-content: flex-end;
+  max-width: 175rem;
+}
+
+.div-competencia img{
+  margin: 0 auto;
+}
+
+.competencia-section{
+  margin: 5rem 0;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit,minmax(25rem,1fr)); */
+}
+
+.competencia-text {
+  width: 100%;
+  text-align: center;
+}
+
+.competencia-text div {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.competencia-text p{
+  display: block;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 3rem;
+ /*  background-color: #037bc0; */
+  /* color: white; */
+  border-radius: 0 0 1rem 1rem;
+}
+
+.eval-img {
+  position: relative;
+  background-image: url(../../../assets/img/tech_4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.grid-reque{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5rem 0;
+}
+
+.img-reque{
+  position: relative;
+  background-image: url(../../../assets/img/tech_6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.grid-meto{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.img-meto{
+  position: relative;
+  background-image: url(../../../assets/img/tech_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.img-estra{
+  position: relative;
+  background-image: url(../../../assets/img/tech_5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.list{
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}
+
+.aux-reque{
+  padding: 6rem;
+  color: white;
+  background-color: #006192;
+}
+
+/*.section-welcome {
+  margin-bottom: 4rem;
+  padding-top: 0.5rem;
+}*/
+.section-welcome {
+  padding: 20px 0; /* Añadir espacio alrededor de la sección */
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* Proporción 16:9 para el video */
+  overflow: hidden;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .container-welcome {
+    padding: 0 10px; /* Ajustar el espacio en dispositivos más pequeños */
+  }
+}
+
+.qr-container {
+  max-width: 15%;
+  height: auto;
+}
+
+.img-responsive {
+  max-width: 50%;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .aux-div{
+    flex-basis: 85%;
+  }
+  .qr-container {
+    max-width: 75%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .image-source {
+    font-size: 0.6em;
+  }
+}

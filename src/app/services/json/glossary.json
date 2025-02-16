@@ -1,0 +1,82 @@
+[
+  {
+    "word": "HTML",
+    "description": "Markup language used to structure and present content on the web through tags defining elements like text, images, and forms."
+  },
+  {
+    "word": "XML",
+    "description": "Extensible Markup Language designed to store and transport structured data, allowing the creation of custom formats."
+  },
+  {
+    "word": "Java Servlets",
+    "description": "Server-side components that extend web server capabilities to generate dynamic content using the Java programming language."
+  },
+  {
+    "word": "CSS",
+    "description": "Cascading Style Sheets used to define the visual presentation of HTML documents, controlling layout, colors, and responsiveness."
+  },
+  {
+    "word": "JavaScript",
+    "description": "Client-side programming language enabling web page interactivity, DOM manipulation, and server communication."
+  },
+  {
+    "word": "AJAX",
+    "description": "Technique for creating asynchronous web applications that update content without reloading the page, using JavaScript and background server communication."
+  },
+  {
+    "word": "HTTP",
+    "description": "Application-layer protocol for transferring data on the web, based on requests and responses between clients and servers."
+  },
+  {
+    "word": "TCP/IP",
+    "description": "Communication protocol suite enabling data transmission across networks, ensuring reliable and ordered packet delivery."
+  },
+  {
+    "word": "DOM",
+    "description": "Document Object Model, an interface representing HTML/XML documents as node trees, enabling dynamic manipulation."
+  },
+  {
+    "word": "JSON",
+    "description": "Lightweight, human-readable data interchange format based on JavaScript syntax, used to structure information in web applications."
+  },
+  {
+    "word": "JavaScript Framework",
+    "description": "Set of tools and libraries (e.g., React, Angular) simplifying complex web application development through predefined patterns."
+  },
+  {
+    "word": "Responsive Design",
+    "description": "Web design approach adapting interfaces to various devices and screen sizes using techniques like media queries and flexible layouts."
+  },
+  {
+    "word": "W3C",
+    "description": "World Wide Web Consortium, an international body establishing web standards to ensure interoperability and accessibility of technologies like HTML, CSS, and XML."
+  },
+  {
+    "word": "Web Container",
+    "description": "Software that executes Servlets and manages the lifecycle of Java EE applications, such as Apache Tomcat or Jetty."
+  },
+  {
+    "word": "DTD",
+    "description": "Document Type Definition, a schema specifying the structure and rules of an XML document to validate its proper formation."
+  },
+  {
+    "word": "Flexbox",
+    "description": "CSS layout model organizing elements within flexible containers, optimizing space and alignment in responsive interfaces."
+  },
+  {
+    "word": "Grid Layout",
+    "description": "CSS-based grid system for creating complex and structured page layouts."
+  },
+  {
+    "word": "Session (HTTP)",
+    "description": "Mechanism to maintain user state across multiple requests, typically implemented via cookies or tokens."
+  },
+  {
+    "word": "Cookies",
+    "description": "Data fragments stored in the client's browser, used to persist information such as preferences or session identifiers."
+  },
+  {
+    "word": "Servlet API",
+    "description": "Java programming interface defining methods to handle HTTP requests and generate dynamic responses in web applications."
+  }
+]

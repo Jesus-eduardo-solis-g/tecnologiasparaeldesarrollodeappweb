@@ -1,0 +1,112 @@
+<section class="container-unidad contenidos" *ngIf="unidad">
+  <article *ngIf="tipo == 1 || (tipo == 0 && selection == 'contenidos')">
+    <div *ngIf="tipo == 1">
+      <h4 class="font-weight-bold w-100 mt-4">
+        {{ 'units-info.text-4' | translate }} <br> <br>
+        {{ 'units-info.text-1' | translate }}
+      </h4>
+    </div>
+    <h4 *ngIf="tipo == 0" class="font-weight-bold w-100 mt-4 mb-0">
+      {{ 'units-info.text-1' | translate }}
+    </h4>
+    <div class="card"
+      *ngFor="let item of tipo == 0 ? unidad.contenido : unidad.recurso.length > 1 ? unidad.recurso.slice(0, -1).filter(rscCategortyFilter) : unidad.recurso;let idx = index">
+      <div class="justify-content-center">
+        <div class="card-header" data-toggle="collapse" [attr.data-target]="'#seccion' + idx" aria-expanded="true"
+          [attr.aria-controls]="'seccion' + idx">
+          <h3 class="card-title">
+            {{item.seccion}} {{item.titulo}}
+          </h3>
+          <div *ngIf="tipo == 0">
+            <span>Palabras clave: </span>
+            <span *ngFor="let kw of item.keywords;let isLast = last;">
+              {{kw}}<span *ngIf="!isLast">,</span>
+            </span>
+          </div>
+          <div *ngIf="tipo == 1">
+            <span>{{item.descripcionRecurso}}</span>
+          </div>
+        </div>
+        <div [id]="'seccion' + idx" class="collapsing">
+          <div [innerHTML]="item.unidad | sanitizedHtml" class="card-body center-content" *ngIf="tipo == 0">
+          </div>
+          <div [innerHTML]="item.recurso | sanitizedHtml"
+            class="card-body justify-content-center embed-responsive embed-responsive-16by9"
+            *ngIf="tipo == 1 && item.category !== 'reading'">
+          </div>
+          <div [innerHTML]="item.recurso | sanitizedHtml"
+            class="card-body justify-content-center embed-responsive embed-responsive-1by1"
+            *ngIf="tipo == 1 && item.category === 'reading'">
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article *ngIf="tipo == 0 && selection == 'actividades'">
+    <h3 class="w-100 mt-4">
+      {{unidad.indice}}. {{unidad.titulo}}
+    </h3>
+    <h4 class="w-100 mb-0" *ngIf="unidad.activities">
+      {{ 'units-info.text-2' | translate }}
+    </h4>
+    <h4 class="text-center mt-4" *ngIf=" !unidad.activities">
+      Sección sin información.
+    </h4>
+    <div class="card" *ngFor="let activity of unidad.activities;let idx = index">
+      <div class="justify-content-center">
+        <div>
+          <div class="card-header" data-toggle="collapse" [attr.data-target]="'#seccion' + idx" aria-expanded="true"
+            [attr.aria-controls]="'seccion' + idx">
+            <h3 class="card-title">
+              {{activity.section}} {{activity.title}}
+            </h3>
+          </div>
+          <div [id]="'seccion' + idx" class="collapsing">
+            <div *ngIf="activity.embed" [innerHTML]="activity.embed | sanitizedHtml"
+              class="card-body justify-content-center embed-responsive embed-responsive-1by1"></div>
+            <div *ngIf="activity.description" [innerHTML]="activity.description | sanitizedHtml"
+              class="card-body justify-content-center"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article *ngIf="tipo == 0 && selection == 'evaluacion'">
+    <div [innerHTML]="unidad.evaluacion | sanitizedHtml"></div>
+  </article>
+  <article *ngIf="tipo == 0 && selection == 'autoevaluacion'">
+    <div [innerHTML]="unidad.autoevaluacion | sanitizedHtml"></div>
+  </article>
+  <article *ngIf="tipo == 0 && selection == 'coevaluacion'">
+    <div [innerHTML]="unidad.coevaluacion | sanitizedHtml"></div>
+  </article>
+  <article *ngIf="tipo == 0 && selection == 'presentacion'">
+    <h4 class="font-weight-bold w-100 mt-4 mb-0" *ngIf="unidad.presentaciones">
+      {{ 'units-info.text-3' | translate }}
+    </h4>
+    <h4 class="text-center mt-4" *ngIf=" !unidad.presentaciones">
+      Sección sin información.
+    </h4>
+    <div class="card" *ngFor="let presentation of unidad.presentaciones;let idx = index">
+      <div class="justify-content-center">
+        <div>
+          <div class="card-header" data-toggle="collapse" [attr.data-target]="'#seccion' + idx" aria-expanded="true"
+              [attr.aria-controls]="'seccion' + idx">
+            <h3 class="card-title">
+                {{presentation.seccion}} {{presentation.titulo}}
+            </h3>
+            <div>
+              <span>{{presentation.descripcionRecurso}}</span>
+            </div>
+            <div [id]="'seccion' + idx" class="collapsing">
+              <div *ngIf="presentation.recurso" [innerHTML]="presentation.recurso | sanitizedHtml"
+                class="card-body justify-content-center embed-responsive embed-responsive-1by1"></div>
+              <div *ngIf="presentation.descripcionRecurso" [innerHTML]="presentation.descripcionRecurso | sanitizedHtml"
+                class="card-body justify-content-center"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+</section>

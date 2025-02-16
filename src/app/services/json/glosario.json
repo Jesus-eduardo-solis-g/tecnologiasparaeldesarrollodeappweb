@@ -1,0 +1,82 @@
+[
+  {
+    "word": "HTML",
+    "description": "Lenguaje de marcado utilizado para estructurar y presentar contenido en la web mediante etiquetas que definen elementos como texto, imágenes y formularios."
+  },
+  {
+    "word": "XML",
+    "description": "Lenguaje de marcado extensible diseñado para almacenar y transportar datos de manera estructurada, permitiendo la creación de formatos personalizados."
+  },
+  {
+    "word": "Java Servlets",
+    "description": "Componentes del lado del servidor que extienden las capacidades de un servidor web para generar contenido dinámico mediante el lenguaje Java."
+  },
+  {
+    "word": "CSS",
+    "description": "Hojas de estilo en cascada que definen la presentación visual de documentos HTML, controlando aspectos como diseño, colores y responsividad."
+  },
+  {
+    "word": "JavaScript",
+    "description": "Lenguaje de programación del lado del cliente que permite crear interactividad en páginas web, manipular el DOM y comunicarse con servidores."
+  },
+  {
+    "word": "AJAX",
+    "description": "Técnica para crear aplicaciones web asíncronas que actualizan contenido sin recargar la página, usando JavaScript y comunicación con el servidor en segundo plano."
+  },
+  {
+    "word": "HTTP",
+    "description": "Protocolo de aplicación utilizado para transferir datos en la web, basado en solicitudes (requests) y respuestas (responses) entre clientes y servidores."
+  },
+  {
+    "word": "TCP/IP",
+    "description": "Conjunto de protocolos de comunicación que permiten la transmisión de datos en redes, garantizando la entrega ordenada y confiable de paquetes."
+  },
+  {
+    "word": "DOM",
+    "description": "Modelo de Objeto del Documento, una interfaz que representa documentos HTML/XML como árboles de nodos, permitiendo su manipulación dinámica."
+  },
+  {
+    "word": "JSON",
+    "description": "Formato de intercambio de datos ligero y legible, basado en la sintaxis de JavaScript, utilizado para estructurar información en aplicaciones web."
+  },
+  {
+    "word": "Framework JavaScript",
+    "description": "Conjunto de herramientas y bibliotecas (como React o Angular) que facilitan el desarrollo de aplicaciones web complejas mediante patrones predefinidos."
+  },
+  {
+    "word": "Diseño responsivo",
+    "description": "Enfoque de diseño web que adapta la interfaz a diferentes dispositivos y tamaños de pantalla usando técnicas como media queries y layouts flexibles."
+  },
+  {
+    "word": "W3C",
+    "description": "Consorcio internacional que establece estándares web para garantizar la interoperabilidad y accesibilidad de tecnologías como HTML, CSS y XML."
+  },
+  {
+    "word": "Contenedor web",
+    "description": "Software que ejecuta Servlets y gestiona el ciclo de vida de aplicaciones Java EE, como Apache Tomcat o Jetty."
+  },
+  {
+    "word": "DTD",
+    "description": "Definición de Tipo de Documento, un esquema que especifica la estructura y reglas de un documento XML para validar su correcta formación."
+  },
+  {
+    "word": "Flexbox",
+    "description": "Modelo de diseño CSS que permite organizar elementos en contenedores flexibles, optimizando el espacio y la alineación en interfaces responsivas."
+  },
+  {
+    "word": "GridLayout",
+    "description": "Sistema de diseño CSS basado en cuadrículas para crear layouts complejos y estructurados en páginas web."
+  },
+  {
+    "word": "Sesión (HTTP)",
+    "description": "Mecanismo para mantener el estado de un usuario entre múltiples solicitudes, generalmente implementado con cookies o tokens."
+  },
+  {
+    "word": "Cookies",
+    "description": "Fragmentos de datos almacenados en el navegador del cliente, utilizados para persistir información como preferencias o identificadores de sesión."
+  },
+  {
+    "word": "API Servlet",
+    "description": "Interfaz de programación en Java que define métodos para manejar solicitudes HTTP y generar respuestas dinámicas en aplicaciones web."
+  }
+]

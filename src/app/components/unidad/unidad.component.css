@@ -1,0 +1,56 @@
+.container-unidad {
+  max-width: 100vw;
+  margin: 0 auto;
+}
+
+.contenidos {
+  margin: 0 auto;
+}
+
+.contenidos h3 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.contenidos span {
+  color: rgba(70, 70, 70, 0.801);
+  font-size: 1.5rem;
+}
+
+.contenidos .card-header {
+  cursor: pointer;
+}
+
+.contenidos .card {
+  margin: 2rem auto;
+}
+
+.container {
+  margin: 2rem auto;
+}
+
+.data-act {
+  display: grid;
+  grid-template-columns: 30fr 1fr;
+}
+
+.pdf-viewer {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 100%;
+  height: 500px;
+}
+
+.container-grid-center {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .data-act {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

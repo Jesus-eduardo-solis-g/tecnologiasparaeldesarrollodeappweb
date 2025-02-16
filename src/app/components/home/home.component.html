@@ -1,0 +1,214 @@
+<div id="curso-info"></div>
+
+<section class="section-welcome">
+  <div class="container container-welcome">
+    <!-- <h2 class="text-center title">{{ 'home.welcome.title' | translate }}</h2>
+    <div style="display: flex; flex-direction: column; align-items: center;">
+      <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/b8VHQqSJ6Z4?si=5h1XeYIRV8Ph4zh1&amp;controls=0&autoplay=1"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div> -->
+    <p id="type-text">{{ text }}</p>
+    <!-- Segundo párrafo: Animación que solo escribe -->
+  <p id="type-text-no-delete" #typeTextNoDelete>{{ textNoDelete }}</p>
+  </div>
+</section>
+
+<section class="about-us"> 
+  <div class="grid-meto">
+    <div class="about-us-img">
+    </div>
+    <div class="aux-reque">
+      <!-- <h1 class="m-0">¡¡¡Bienvenidos!!!</h1> -->
+      <h2>{{ 'home.about-course.title' | translate }}</h2>
+      <p class="text-justify">
+        {{ 'home.about-course.content.header' | translate }}
+      </p>
+      <p class="text-justify">
+        {{ 'home.about-course.content.main-text' | translate }}
+      </p>
+    </div>
+  </div>
+  <div id="meto"></div>
+</section>
+
+<section class="meto">
+  <div class="grid-meto">
+    <div class="aux-reque">
+      <h2>{{ 'home.methodology.title' | translate }}</h2>
+      {{ 'home.methodology.content.header' | translate }}
+      <ol>
+        <li class="text-justify mb-3 mt-3">{{ 'home.methodology.content.list.i1' | translate }}
+        </li>
+        <li class="text-justify mb-3 mt-3">{{ 'home.methodology.content.list.i2' | translate }}
+        </li>
+        <li class="text-justify mb-3 mt-3">{{ 'home.methodology.content.list.i3' | translate }}
+        </li>
+        <li class="text-justify mb-3 mt-3">{{ 'home.methodology.content.list.i4' | translate }}
+        </li>
+        <li class="text-justify mb-3 mt-3">{{ 'home.methodology.content.list.i5' | translate }}
+        </li>
+        <li class="text-justify mb-3 mt-3">{{ 'home.methodology.content.list.i6' | translate }}
+        </li>
+        <li class="text-justify mb-3 mt-3">{{ 'home.methodology.content.list.i7' | translate }}
+        </li>
+        <li class="text-justify mb-3 mt-3">{{ 'home.methodology.content.list.i8' | translate }}
+        </li>
+      </ol>
+    </div>
+    <div class="img-meto">
+    </div>
+  </div>
+  <div id="competencia"></div>
+</section>
+
+<section class="competencia-section">
+  <div class="container div-competencia">
+    <h2 class="text-center">{{ 'home.competence.title' | translate }}</h2>
+    <div class="competencia-text">
+      <div class="competence-img">
+      </div>
+      <p>
+        {{ 'home.competence.content.header' | translate }}
+      </p>
+    </div>
+    <div id="eval"></div>
+  </div>
+</section>
+
+<section class="eval"> 
+  <div class="grid-meto">
+    <div class="eval-img">
+    </div>
+    <div class="aux-reque">
+      <h2>{{ 'home.eval.title' | translate }}</h2>
+      {{ 'home.eval.content.header' | translate }}<br>
+      <ol>
+        <li class="text-justify mb-3 mt-3">{{ 'home.eval.content.list.i1' | translate }}</li>
+        <li class="text-justify mb-3">{{ 'home.eval.content.list.i2' | translate }}</li>
+        <li class="text-justify mb-3">{{ 'home.eval.content.list.i3' | translate }}</li>
+        <li class="text-justify mb-3">{{ 'home.eval.content.list.i4' | translate }}</li>
+        <li class="text-justify mb-3">{{ 'home.eval.content.list.i5' | translate }}</li>
+        <li class="text-justify mb-3">{{ 'home.eval.content.list.i6' | translate }}</li>
+        <li class="text-justify mb-3">{{ 'home.eval.content.list.i7' | translate }}</li>
+        <li class="text-justify mb-3">{{ 'home.eval.content.list.i8' | translate }}</li>
+      </ol>
+    </div>
+  </div>
+  <div id="estrategias"></div>
+</section>
+<section class="estrat">
+  <div class="grid-meto">
+    <div class="aux-reque">
+      <h2>{{ 'home.strat.title' | translate }}</h2>
+      {{ 'home.strat.content.header' | translate }}
+      <ol>
+        <li class="text-justify mb-3">{{ 'home.strat.content.list.i1' | translate }}</li>
+        <li class="text-justify mb-3">{{ 'home.strat.content.list.i2' | translate }}</li>
+        <li class="text-justify mb-3">{{ 'home.strat.content.list.i3' | translate }}</li>
+        <li class="text-justify mb-3">{{ 'home.strat.content.list.i4' | translate }}</li>
+        <li class="text-justify mb-3">{{ 'home.strat.content.list.i5' | translate }}</li>
+        <li class="text-justify mb-3">{{ 'home.strat.content.list.i6' | translate }}</li>
+        <li class="text-justify mb-3">{{ 'home.strat.content.list.i7' | translate }}</li>
+      </ol>
+    </div>
+    <div class="img-estra">
+    </div>
+  </div>
+  <div id="programa-estudios"></div>
+</section>
+
+<section class="competencia-section">
+  <div class="container div-competencia">
+    <h2 class="text-center"><a class="text-primary" data-toggle="modal" [attr.data-target]="'#program'">{{ 'home.prog.title' | translate }}</a></h2>
+    <div class="competencia-text">
+      <img class="qr-container" src="assets/img/qr.png" alt="Imagen Cargada" />
+      <div id="contactos"></div>
+      <p>
+        {{ 'home.prog.content.header' | translate }}
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="container categories">
+  <h2 class="text-center">{{ 'home.contacts.title' | translate }}: Ext. 52012</h2>
+  <div class="list-cat">
+    <div *ngFor="let item of responsables;let idx = index" class="category">
+      <div class="prof-photo" [style]="'background-image: url('+item.photo+');'"></div>
+      <!--  <img [src]="item.photo" alt="Imagen Cargada" /> -->
+      <p>
+        <b>{{item.name}}</b><br>{{item.mail}}<br>
+        <button type="button" class="btn btn-link" data-toggle="modal" [attr.data-target]="'#prof'+idx">{{ 'home.contacts.footer' | translate }}</button>
+      </p>
+
+      <div class="modal fade" [id]="'prof'+idx">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header text-center">
+              <h2 class="modal-title">{{item.name}}</h2>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span>&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <b>{{ 'home.contacts.content.text-1' | translate }}</b><br />
+              <div [innerHtml]="item.info"></div>
+              <br />
+              <b>{{ 'home.contacts.content.text-2' | translate }}</b><br />
+              <div [innerHtml]="item.intereses"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="reque"></div>
+</section>
+
+
+<section class="reque">
+  <div class="grid-reque">
+    <div class="aux-reque">
+      <h2>{{ 'home.req.title' | translate }}</h2>
+      <p>
+        {{ 'home.req.content.list-1.title' | translate }}
+      </p>
+      <ul>
+        <li class="text-justify mb-3">{{ 'home.req.content.list-1.i1' | translate }}</li>
+        <li class="text-justify mb-3">{{ 'home.req.content.list-1.i2' | translate }}</li>
+        <li class="text-justify mb-3">{{ 'home.req.content.list-1.i3' | translate }}</li>
+      </ul>
+      <!-- <div class="d-none d-md-block"> -->
+        <p>
+          {{ 'home.req.content.list-2.title' | translate }}
+        </p>
+        <ul>
+          <li class="text-justify mb-3">{{ 'home.req.content.list-2.i1' | translate }}</li>
+          <li class="text-justify mb-3">{{ 'home.req.content.list-2.i2' | translate }}</li>
+          <li class="text-justify mb-3">{{ 'home.req.content.list-2.i3' | translate }}</li>
+          <li class="text-justify mb-3">{{ 'home.req.content.list-2.i4' | translate }}</li>
+        </ul>
+        <p>
+          {{ 'home.req.content.list-3.title' | translate }}
+        </p>
+        <ul>
+          <li class="text-justify mb-3">{{ 'home.req.content.list-3.i1' | translate }}</li>
+          <li class="text-justify mb-3">{{ 'home.req.content.list-3.i2' | translate }}</li>
+          <li class="text-justify mb-3">{{ 'home.req.content.list-3.i3' | translate }}</li>
+          <li class="text-justify mb-3">{{ 'home.req.content.list-3.i4' | translate }}</li>
+          <li class="text-justify mb-3">{{ 'home.req.content.list-3.i5' | translate }}</li>
+          <li class="text-justify mb-3">{{ 'home.req.content.list-3.i6' | translate }}</li>
+          <li class="text-justify mb-3">{{ 'home.req.content.list-3.i7' | translate }}</li>
+        </ul>
+      <!-- </div> -->
+    </div>
+    <div class="img-reque">
+    </div>
+  </div>
+</section>
+
+<main class="main-prod container">
+</main>

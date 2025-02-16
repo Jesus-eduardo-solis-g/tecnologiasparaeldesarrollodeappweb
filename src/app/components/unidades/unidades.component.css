@@ -1,0 +1,61 @@
+.titulo{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+/*   background-color: rgb(2, 66, 0);
+ */
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 3.2rem;
+}
+
+.competencia{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.aux-compe{
+  padding: 7rem;
+  color: white;
+  background-color: #037bc0;
+}
+
+.btn-perso {
+  color: white;
+  padding: 0;
+}
+.btn-perso:hover {
+  border: solid white 0.1rem;
+}
+
+.label-no-margin {
+  margin: 0;
+}
+
+.btn-check:checked + .btn {
+  background-color: #007bff !important;
+  color: #ffffff !important; /* texto blanco */
+}
+
+.visually-hidden {
+  position: absolute !important;
+  height: 1px; 
+  width: 1px; 
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
+
+.image-source {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  font-size: 0.8em;
+  color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .unidades-container{
+    margin-top: 3.5rem;
+  }
+}
