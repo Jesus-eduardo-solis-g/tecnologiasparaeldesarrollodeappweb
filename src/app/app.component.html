@@ -1,4 +1,4 @@
-<header class="nav-main-header sticky-header" [ngClass]="{'sticky': isSticky}">
+<header class="nav-main-header">
   <div class="logos" [routerLink]="['/']" (click)="collapse()">
     <img class="img-logo" src="assets/img/ipn.png" alt="escom">
     <h2 class="redes-text">{{ 'app.firstTitle' | translate }} <p><span>{{ 'app.secondTitle' | translate }}</span></p></h2>
@@ -60,6 +60,13 @@
     </nav>
   </div>
 </header>
+
+<main class="content-container">
+  <div class="app">
+    <router-outlet></router-outlet>
+  </div>
+</main>
+
 <div class="modal fade" id="biblio">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
@@ -77,6 +84,7 @@
     </div>
   </div>
 </div>
+
 <div class="modal fade" id="program">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
@@ -93,9 +101,6 @@
       </div>
     </div>
   </div>
-</div>
-<div class="app">
-  <router-outlet></router-outlet>
 </div>
 
 <section class="modal fade" id="usermanual">

@@ -1,7 +1,27 @@
-.app{
-  margin-top: 0rem;
+/* Header sticky */
+.nav-main-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 3px solid;
+  border-image-source: linear-gradient(to right, #637681, #037bc0);
+  border-image-slice: 1;
+  padding: 2rem 10rem;
+  background-color: white;
+  font-size: 1.7rem;
 }
 
+/* Contenedor principal para el scroll */
+.content-container {
+  height: calc(100vh - 8rem); /* Ajusta según la altura de tu header */
+  overflow-y: auto;
+}
+
+.app {
+  margin-top: 0;
+}
+
+/* Estilos existentes que se mantienen */
 .dropdown-item{
   font-size: 1.3rem;
   cursor: pointer;
@@ -14,53 +34,39 @@
 }
 
 .nav-position {
-  width: 100%; /* El div ocupa el 100% del ancho de la pantalla */
-  /*float: center; */
-  display: flex; /* Usa flexbox para centrar el contenido */
-  justify-content: center; /* Centra el contenido horizontalmente */
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .dropdown-menu {
   border: none;
 }
 
-/** Header y Nav Main **/
-
-.nav-main-header{
-  border-bottom: 3px solid;
-  border-image-source: linear-gradient(to right, #637681, #037bc0);
-  border-image-slice: 1;
-  padding: 2rem 10rem; /*Top Rigth Bottom Left */ /*TB LR*/
-  background-color: white;
-  font-size: 1.7rem;
-}
-
 .img-logo{
-  width: 100%; /* La imagen ocupará el 100% del ancho de su contenedor */
-  max-width: 12rem; /* La imagen no superará los 12 rems de ancho */
-  height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
-  min-width: 6rem; /* Tamaño mínimo para la imagen */
+  width: 100%;
+  max-width: 12rem;
+  height: auto;
+  min-width: 6rem;
 }
 
 .logos {
   display: grid;
-  grid-template-columns: auto auto 1fr auto; /* Dos columnas automáticas a la izquierda, seguidas de dos columnas que ocupan el espacio restante */
-  align-items: center; /* Centra el contenido verticalmente */
+  grid-template-columns: auto auto 1fr auto;
+  align-items: center;
 }
 
-/* Ajusta la alineación de los elementos si es necesario */
 .logos > *:nth-child(-n+2) {
-  justify-self: start; /* Alinea los primeros dos elementos a la izquierda */
+  justify-self: start;
 }
 
 .logos > *:nth-child(n+3) {
-  justify-self: end; /* Alinea los últimos dos elementos a la derecha */
+  justify-self: end;
 }
 
-
 .right-column {
-  grid-column-start: 4; /* Inicia en la tercera columna */
-  grid-column-end: -1; /* Termina en la última columna de la cuadrícula */
+  grid-column-start: 4;
+  grid-column-end: -1;
 }
 
 .redes-text{
@@ -87,10 +93,6 @@
 }
 
 .navs-header{
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap; */
   padding-top: 0rem;
   display: grid;
   grid-template-columns: 1fr;
@@ -104,21 +106,6 @@
 .navbar-toggler{
   margin: 0 auto;
   padding: 0.5rem 4rem;
-}
-
-/* app.component.css */
-.sticky-header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: #ffffff; /* Change to your desired background color */
-  z-index: 1000; /* Adjust z-index as needed */
-  transition: top 0.3s; /* Add smooth transition when header becomes sticky */
-}
-
-.sticky {
-  top: -21rem; /* Adjust to the height of your header */
-  /*position: static;*/
 }
 
 .div-space {
@@ -137,11 +124,14 @@
 
 @media only screen and (max-width: 600px) {
   .nav-main-header{
-    padding: 2rem 5rem; /*Top Rigth Bottom Left */ /*TB LR*/
+    padding: 2rem 5rem;
   }
   .logos{
     margin-right: 0rem;
   }
+  
+  /* Ajuste para móviles */
+  .content-container {
+    height: calc(100vh - 10rem); /* Más espacio para header en móviles */
+  }
 }
-
-
