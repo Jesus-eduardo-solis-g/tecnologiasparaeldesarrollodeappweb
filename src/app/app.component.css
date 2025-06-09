@@ -117,8 +117,8 @@
 }
 
 .sticky {
-  /* top: -21rem; Adjust to the height of your header */
-  position: static;
+  top: -21rem; /* Adjust to the height of your header */
+  /*position: static;*/
 }
 
 .div-space {
