@@ -1,71 +1,71 @@
-/* Header sticky - versión compacta consistente */
-.nav-main-header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  border-bottom: 3px solid;
-  border-image-source: linear-gradient(to right, #637681, #037bc0);
-  border-image-slice: 1;
-  padding: 0.5rem 1.5rem; /* Espacio más compacto */
-  background-color: white;
-  font-size: 1.4rem; /* Tamaño de fuente reducido */
-}
-
 .app{
   margin-top: 0rem;
 }
 
 .dropdown-item{
-  font-size: 1.2rem; /* Reducido de 1.3rem */
+  font-size: 1.3rem;
   cursor: pointer;
 }
 
 .navbar-nav {
   width: 40%;
   justify-content: space-between;
-  margin-left: 1.5rem; /* Reducido de 2rem */
+  margin-left: 5rem;
 }
 
 .nav-position {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+  width: 100%; /* El div ocupa el 100% del ancho de la pantalla */
+  /*float: center; */
+  display: flex; /* Usa flexbox para centrar el contenido */
+  justify-content: center; /* Centra el contenido horizontalmente */
 }
 
 .dropdown-menu {
   border: none;
 }
 
+/** Header y Nav Main **/
+
+.nav-main-header{
+  border-bottom: 3px solid;
+  border-image-source: linear-gradient(to right, #637681, #037bc0);
+  border-image-slice: 1;
+  padding: 2rem 10rem; /*Top Rigth Bottom Left */ /*TB LR*/
+  background-color: white;
+  font-size: 1.7rem;
+}
+
 .img-logo{
-  width: 100%;
-  max-width: 10rem; /* Reducido de 12rem */
-  height: auto;
-  min-width: 5rem; /* Reducido de 6rem */
+  width: 100%; /* La imagen ocupará el 100% del ancho de su contenedor */
+  max-width: 12rem; /* La imagen no superará los 12 rems de ancho */
+  height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+  min-width: 6rem; /* Tamaño mínimo para la imagen */
 }
 
 .logos {
   display: grid;
-  grid-template-columns: auto auto 1fr auto;
-  align-items: center;
-  gap: 0.5rem; /* Espaciado entre elementos reducido */
+  grid-template-columns: auto auto 1fr auto; /* Dos columnas automáticas a la izquierda, seguidas de dos columnas que ocupan el espacio restante */
+  align-items: center; /* Centra el contenido verticalmente */
 }
 
+/* Ajusta la alineación de los elementos si es necesario */
 .logos > *:nth-child(-n+2) {
-  justify-self: start;
+  justify-self: start; /* Alinea los primeros dos elementos a la izquierda */
 }
 
 .logos > *:nth-child(n+3) {
-  justify-self: end;
+  justify-self: end; /* Alinea los últimos dos elementos a la derecha */
 }
 
+
 .right-column {
-  grid-column-start: 4;
-  grid-column-end: -1;
+  grid-column-start: 4; /* Inicia en la tercera columna */
+  grid-column-end: -1; /* Termina en la última columna de la cuadrícula */
 }
 
 .redes-text{
-  margin: 0 0.8rem; /* Reducido de 1rem */
-  font-size: 1.6rem; /* Reducido de 2rem */
+  margin: 0 1rem;
+  font-size: 2rem;
 }
 
 .redes-text span{
@@ -73,8 +73,8 @@
 }
 
 .escom-text{
-  margin: 0 1.5rem; /* Reducido de 3rem */
-  font-size: 1.6rem; /* Reducido de 2rem */
+  margin: 0 3rem;
+  font-size: 2rem;
 }
 
 .escom-text span{
@@ -87,6 +87,10 @@
 }
 
 .navs-header{
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap; */
   padding-top: 0rem;
   display: grid;
   grid-template-columns: 1fr;
@@ -99,7 +103,22 @@
 
 .navbar-toggler{
   margin: 0 auto;
-  padding: 0.4rem 2rem; /* Reducido de 0.5rem 4rem */
+  padding: 0.5rem 4rem;
+}
+
+/* app.component.css */
+.sticky-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff; /* Change to your desired background color */
+  z-index: 1000; /* Adjust z-index as needed */
+  transition: top 0.3s; /* Add smooth transition when header becomes sticky */
+}
+
+.sticky {
+  top: -14rem; /* Adjust to the height of your header */
+  position: sticky;
 }
 
 .div-space {
@@ -110,40 +129,6 @@
   display: flex;
 }
 
-.site-footer {
-  background-color: #f8f9fa;
-  padding: 2rem 0;
-  margin-top: 2rem;
-}
-
-.grid-footer {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-}
-
-.nav-foot {
-  display: flex;
-  flex-direction: column;
-}
-
-.nav-foot a {
-  margin-bottom: 0.5rem;
-  color: #333;
-  text-decoration: none;
-}
-
-.nav-foot a:hover {
-  color: #037bc0;
-}
-
-.copyright {
-  text-align: center;
-  margin-top: 2rem;
-  padding-top: 1rem;
-  border-top: 1px solid #dee2e6;
-}
-
 @media only screen and (max-width: 800px) {
   .navs-header{
     grid-template-columns: 1fr;
@@ -152,23 +137,11 @@
 
 @media only screen and (max-width: 600px) {
   .nav-main-header{
-    padding: 0.5rem 1rem; /* Versión compacta para móviles */
+    padding: 2rem 5rem; /*Top Rigth Bottom Left */ /*TB LR*/
   }
   .logos{
     margin-right: 0rem;
-    grid-template-columns: auto 1fr auto; /* Reorganización para móviles */
-  }
-  .escom-text {
-    display: none; /* Ocultar en móviles para más espacio */
-  }
-  .img-logo {
-    max-width: 8rem; /* Más pequeño en móviles */
-  }
-  .redes-text {
-    font-size: 1.3rem; /* Texto más pequeño en móviles */
-    margin: 0 0.3rem;
-  }
-  .navbar-toggler {
-    padding: 0.3rem 1.5rem; /* Más compacto en móviles */
   }
 }
+
+
