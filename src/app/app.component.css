@@ -108,7 +108,7 @@
 
 /* app.component.css */
 .sticky-header {
-  position: sticky;
+  position: static;
   top: 0;
   width: 100%;
   background-color: #ffffff; /* Change to your desired background color */
