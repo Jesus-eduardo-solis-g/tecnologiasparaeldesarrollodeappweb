@@ -1,4 +1,4 @@
-/* Header sticky */
+/* Header sticky - versión compacta consistente */
 .nav-main-header {
   position: sticky;
   top: 0;
@@ -6,9 +6,9 @@
   border-bottom: 3px solid;
   border-image-source: linear-gradient(to right, #637681, #037bc0);
   border-image-slice: 1;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1.5rem; /* Espacio más compacto */
   background-color: white;
-  font-size: 1.5rem;
+  font-size: 1.4rem; /* Tamaño de fuente reducido */
 }
 
 .app{
@@ -16,14 +16,14 @@
 }
 
 .dropdown-item{
-  font-size: 1.3rem;
+  font-size: 1.2rem; /* Reducido de 1.3rem */
   cursor: pointer;
 }
 
 .navbar-nav {
   width: 40%;
   justify-content: space-between;
-  margin-left: 2rem;
+  margin-left: 1.5rem; /* Reducido de 2rem */
 }
 
 .nav-position {
@@ -38,15 +38,16 @@
 
 .img-logo{
   width: 100%;
-  max-width: 12rem;
+  max-width: 10rem; /* Reducido de 12rem */
   height: auto;
-  min-width: 6rem;
+  min-width: 5rem; /* Reducido de 6rem */
 }
 
 .logos {
   display: grid;
   grid-template-columns: auto auto 1fr auto;
   align-items: center;
+  gap: 0.5rem; /* Espaciado entre elementos reducido */
 }
 
 .logos > *:nth-child(-n+2) {
@@ -63,8 +64,8 @@
 }
 
 .redes-text{
-  margin: 0 1rem;
-  font-size: 2rem;
+  margin: 0 0.8rem; /* Reducido de 1rem */
+  font-size: 1.6rem; /* Reducido de 2rem */
 }
 
 .redes-text span{
@@ -72,8 +73,8 @@
 }
 
 .escom-text{
-  margin: 0 3rem;
-  font-size: 2rem;
+  margin: 0 1.5rem; /* Reducido de 3rem */
+  font-size: 1.6rem; /* Reducido de 2rem */
 }
 
 .escom-text span{
@@ -98,7 +99,7 @@
 
 .navbar-toggler{
   margin: 0 auto;
-  padding: 0.5rem 4rem;
+  padding: 0.4rem 2rem; /* Reducido de 0.5rem 4rem */
 }
 
 .div-space {
@@ -151,9 +152,23 @@
 
 @media only screen and (max-width: 600px) {
   .nav-main-header{
-    padding: 2rem 5rem;
+    padding: 0.5rem 1rem; /* Versión compacta para móviles */
   }
   .logos{
     margin-right: 0rem;
+    grid-template-columns: auto 1fr auto; /* Reorganización para móviles */
+  }
+  .escom-text {
+    display: none; /* Ocultar en móviles para más espacio */
+  }
+  .img-logo {
+    max-width: 8rem; /* Más pequeño en móviles */
+  }
+  .redes-text {
+    font-size: 1.3rem; /* Texto más pequeño en móviles */
+    margin: 0 0.3rem;
+  }
+  .navbar-toggler {
+    padding: 0.3rem 1.5rem; /* Más compacto en móviles */
   }
 }
